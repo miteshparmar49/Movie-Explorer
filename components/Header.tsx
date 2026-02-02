@@ -29,6 +29,7 @@ export default function Header() {
 
           {/* Desktop menu */}
           <ul className="hidden md:flex items-center gap-8 text-sm">
+               <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#tech-stack">Tech Stack</a></li>
             <li><a href="#portfolio">Work</a></li>
