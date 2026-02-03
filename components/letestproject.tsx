@@ -13,25 +13,25 @@ const projects = [
     title: "Fashion Store",
     platform: "Neto",
     badgeColor: "bg-sky-500",
-    image: "/theme4_new.jpg",
+    image: "/Pro-1.png",
   },
   {
     title: "Tech Gadgets Shop",
     platform: "Shopify",
     badgeColor: "bg-green-500",
-    image: "/theme4_new.jpg",
+    image: "/pro-2.png",
   },
   {
     title: "Home Decor Shop",
     platform: "BigCommerce",
     badgeColor: "bg-indigo-500",
-    image: "/theme4_new.jpg",
+    image: "/pro-3.png",
   },
   {
     title: "Electronics Store",
     platform: "Maropost",
     badgeColor: "bg-pink-500",
-    image: "/theme4_new.jpg",
+    image: "/pro-1.png",
   },
 ];
 
@@ -73,7 +73,7 @@ export default function LatestProjects() {
                 "
               >
                 {/* image */}
-                <div className="relative aspect-[16/10] w-full mvp">
+                <div className="relative aspect-[16/10] w-full ">
                   <Image
                     src={project.image}
                     alt={`${project.title} ecommerce website built using ${project.platform}`}
