@@ -73,15 +73,15 @@ export default function LatestProjects() {
                 "
               >
                 {/* image */}
-                <div className="relative aspect-[16/10] w-full ">
-                  <Image
-                    src={project.image}
-                    alt={`${project.title} ecommerce website built using ${project.platform}`}
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105 w-full h-auto object-cover rounded-xl"
-                    sizes="(max-width:768px) 100vw, 33vw"
-                  />
-                </div>
+          <div className="relative aspect-[16/9] w-full overflow-hidden rounded-xl">
+  <Image
+    src={project.image}
+    alt={`${project.title} ecommerce website built using ${project.platform}`}
+    fill
+    sizes="(max-width:768px) 100vw, 33vw"
+    className="object-contain w-full h-full transition-transform duration-500 group-hover:scale-[1.03]"
+  />
+</div>
 
                 {/* badge */}
                 <span
