@@ -31,7 +31,7 @@ const projects = [
     title: "Electronics Store",
     platform: "Maropost",
     badgeColor: "bg-pink-500",
-    image: "/pro-1.png",
+    image: "/pro-4.png",
   },
 ];
 
