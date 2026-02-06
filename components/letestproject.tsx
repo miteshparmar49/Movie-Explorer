@@ -79,7 +79,7 @@ export default function LatestProjects() {
     alt={`${project.title} ecommerce website built using ${project.platform}`}
     fill
     sizes="(max-width:768px) 100vw, 33vw"
-    className="object-contain w-full h-full transition-transform duration-500 group-hover:scale-[1.03]"
+    className=" w-full h-full transition-transform duration-500 group-hover:scale-[1.03]"
   />
 </div>
 
