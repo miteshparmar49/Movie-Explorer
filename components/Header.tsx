@@ -29,20 +29,19 @@ export default function Header() {
 
           {/* Desktop menu */}
           <ul className="hidden md:flex items-center gap-8 text-sm">
-               <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#tech-stack">Tech Stack</a></li>
-            <li><a href="#portfolio">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><Link href="/about">About US</Link></li>
+            <li><Link href="/services">Services</Link></li>
+           <li><Link href="/ourwork">Our Work</Link></li>
+             <li><Link href="/contact">Contact Us</Link></li>
           </ul>
 
           {/* Desktop CTA */}
-          <a
-            href="#contact"
+          <Link
+            href="contact"
             className="hidden md:inline-flex rounded-md bg-gradient-to-r from-indigo-500 to-purple-600 px-4 py-2 text-sm font-medium text-white shadow-md shadow-indigo-500/30 hover:opacity-90 transition disabled:opacity-60"
           >
             Hire Me
-          </a>
+          </Link>
 
           {/* Mobile button */}
           <button

@@ -10,7 +10,7 @@ import {
 const services = [
   {
     title: "Ecommerce Development",
-    desc: "Neto, Maropost, Shopify, BigCommerce",
+    desc: "Neto By Maropost, Shopify, BigCommerce, WordPress",
     icon: HiOutlineShoppingBag,
     color: "text-blue-400",
   },

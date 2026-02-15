@@ -18,8 +18,7 @@ const techStack = [
   { name: "Node.js", icon: SiNodedotjs, color: "text-green-500" },
 
   // platforms
-  { name: "Neto", icon: SiGoogle, color: "text-blue-400" },
-  { name: "Maropost", icon: SiGoogle, color: "text-indigo-400" },
+  { name: "Neto By Maropost", icon: SiGoogle, color: "text-blue-400" },
   { name: "Shopify", icon: SiShopify, color: "text-green-400" },
   { name: "BigCommerce", icon: SiBigcommerce, color: "text-purple-400" },
   { name: "WordPress", icon: SiWordpress, color: "text-sky-400" },

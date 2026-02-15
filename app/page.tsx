@@ -5,6 +5,7 @@ import WhyChooseMe from "@/components/whyme";
 import LatestProjects from "@/components/letestproject";
 import ContactUs from "@/components/contactus";
 import AboutUs from "@/components/About";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -33,19 +34,19 @@ export default function Home() {
             </p>
 
             <div className="mt-8 flex gap-4">
-              <a
-                href="#portfolio"
+              <Link
+                href="ourwork"
                 className="bg-white text-black px-6 py-3 rounded-md font-medium"
               >
                 View Work
-              </a>
+              </Link>
 
-              <a
-                href="#contact"
+              <Link
+                href="contact"
                 className="border border-white/20 px-6 py-3 rounded-md"
               >
                 Contact Me
-              </a>
+              </Link>
             </div>
           </div>
 
