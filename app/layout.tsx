@@ -130,7 +130,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
-        <script type="text/javascript" src="https://smartarget.online/loader.js?u=d2f8ebdb7524cdf261263a43a14f52d1ecae5654"></script>
+      
       </body>
     </html>
   );

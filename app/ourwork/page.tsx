@@ -7,7 +7,7 @@ export default function WorkPage() {
       title: "Neto Ecommerce Store",
       platform: "Neto",
       desc: "Custom theme development, performance optimisation and checkout improvements.",
-      image: "/pro-1.png",
+      image: "/mvpinfo.png",
     },
     {
       title: "Maropost Commerce Cloud Store",
@@ -31,7 +31,7 @@ export default function WorkPage() {
       title: "Headless Ecommerce Website",
       platform: "Next.js + API",
       desc: "Headless frontend using Next.js with custom backend integrations.",
-      image: "/pro-1.png",
+      image: "/mvpinfo.png",
     },
     {
       title: "Store Migration Project",
