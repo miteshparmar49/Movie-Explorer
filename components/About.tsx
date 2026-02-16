@@ -117,28 +117,28 @@ export default function AboutUs() {
         </p>
 
         {/* Skills */}
-        <div className="mt-10 flex flex-wrap justify-center gap-3">
-          {skills.map((skill) => {
-            const href = skillLinks[skill];
+       <div className="mt-10 flex flex-wrap justify-center gap-3">
+  {skills.map((skill) => {
+    const href = skillLinks[skill];
 
-            const badge = (
-              <span
-                className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/80
-                           hover:bg-white/10 hover:text-white transition mb-3"
-              >
-                {skill}
-              </span>
-            );
+    const badge = (
+      <span
+        className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/80
+                   hover:bg-white/10 hover:text-white transition"
+      >
+        {skill}
+      </span>
+    );
 
-            return href ? (
-              <Link key={skill} href={href} aria-label={skill}>
-                {badge}
-              </Link>
-            ) : (
-              <span key={skill}>{badge}</span>
-            );
-          })}
-        </div>
+    return href ? (
+      <Link key={skill} href={href} aria-label={skill}>
+        {badge}
+      </Link>
+    ) : (
+      <span className="mb-2" key={skill}>{badge}</span>
+    );
+  })}
+</div>
 
         {/* SEO helper line */}
         <p className="sr-only">

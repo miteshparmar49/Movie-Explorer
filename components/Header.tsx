@@ -29,7 +29,7 @@ export default function Header() {
 
           {/* Desktop menu */}
           <ul className="hidden md:flex items-center gap-8 text-sm">
-            <li><Link href="/about">About US</Link></li>
+            <li><Link href="/about">About Us</Link></li>
             <li><Link href="/services">Services</Link></li>
            <li><Link href="/ourwork">Our Work</Link></li>
              <li><Link href="/contact">Contact Us</Link></li>
@@ -75,33 +75,33 @@ export default function Header() {
             <ul className="flex flex-col divide-y divide-white/10 text-sm">
 
               <li>
-                <a
-                  href="#services"
+                <Link
+                  href="/about"
+                  onClick={() => setOpen(false)}
+                  className="block px-4 py-3"
+                >
+                  About Us
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                 href="/services"
                   onClick={() => setOpen(false)}
                   className="block px-4 py-3"
                 >
                   Services
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="#tech-stack"
+                <Link
+                  href="/ourwork"
                   onClick={() => setOpen(false)}
                   className="block px-4 py-3"
                 >
-                  Tech Stack
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="#portfolio"
-                  onClick={() => setOpen(false)}
-                  className="block px-4 py-3"
-                >
-                  Work
-                </a>
+                 Our Work
+                </Link>
               </li>
 
               <li>
@@ -110,18 +110,18 @@ export default function Header() {
                   onClick={() => setOpen(false)}
                   className="block px-4 py-3"
                 >
-                  Contact
+                  Contact Us
                 </a>
               </li>
 
               <li className="p-4">
-                <a
-                  href="#contact"
+                <Link
+                 href="/contact"
                   onClick={() => setOpen(false)}
                   className="block w-full rounded-md bg-white text-black text-center py-2 font-medium"
                 >
                   Hire Me
-                </a>
+                </Link>
               </li>
 
             </ul>
