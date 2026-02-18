@@ -1,5 +1,46 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+import Link from "next/link";
 
+export const metadata: Metadata = {
+  title: "Maropost (Neto) Ecommerce Development Services | MVP InfoTech",
+  description:
+    "Professional Maropost (Neto) ecommerce development services by MVP InfoTech. Store setup, theme customization, integrations, SEO and performance optimisation.",
+
+  alternates: {
+    canonical: "https://www.mvpinfotech.in/neto",
+  },
+
+  openGraph: {
+    title: "Maropost (Neto) Ecommerce Development Services | MVP InfoTech",
+    description:
+      "Expert Maropost (Neto) ecommerce developers. We build, customise and optimise Neto stores for speed, SEO and conversions.",
+    url: "https://www.mvpinfotech.in/neto",
+    siteName: "MVP InfoTech",
+    type: "website",
+    images: [
+      {
+        url: "https://www.mvpinfotech.in/neto1.png",
+        width: 1200,
+        height: 630,
+        alt: "Maropost Neto Ecommerce Development – MVP InfoTech",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Maropost (Neto) Ecommerce Development Services | MVP InfoTech",
+    description:
+      "Maropost (Neto) ecommerce development, custom themes, integrations and SEO by MVP InfoTech.",
+    images: ["https://www.mvpinfotech.in/og/neto.jpg"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 export default function NetoServicePage() {
   return (
     <main className="relative overflow-hidden">
@@ -171,19 +212,19 @@ export default function NetoServicePage() {
           </p>
 
           <div className="mt-10 flex justify-center gap-4">
-            <a
-              href="/#contact"
+            <Link
+              href="/contact"
               className="bg-white text-black px-8 py-3 rounded-md font-medium hover:bg-white/90 transition"
             >
               Start Your Project
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="/services"
               className="border border-white/20 px-8 py-3 rounded-md hover:border-white/40 transition"
             >
               View All Services
-            </a>
+            </Link>
           </div>
         </div>
       </section>

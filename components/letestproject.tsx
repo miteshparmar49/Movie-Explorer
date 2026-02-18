@@ -10,25 +10,25 @@ import "swiper/css/pagination";
 
 const projects = [
   {
-    title: "Fashion Store",
+    title: "Boat Hardware Shop",
     platform: "Neto",
     badgeColor: "bg-sky-500",
     image: "/Pro-1.png",
   },
   {
-    title: "Tech Gadgets Shop",
+    title: "Automotive Lighting Solutions",
     platform: "Shopify",
     badgeColor: "bg-green-500",
     image: "/pro-2.png",
   },
   {
-    title: "Home Decor Shop",
+    title: "Independent Living and Mobility Equipment",
     platform: "BigCommerce",
     badgeColor: "bg-indigo-500",
     image: "/pro-3.png",
   },
   {
-    title: "Electronics Store",
+    title: "Automative Part",
     platform: "Maropost",
     badgeColor: "bg-pink-500",
     image: "/pro-4.png",

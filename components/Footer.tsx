@@ -53,24 +53,24 @@ export default function Footer() {
 
             <ul className="space-y-3 text-sm text-white/70">
               <li>
-                <a href="#services" className="hover:text-white transition">
+                <Link href="/about" className="hover:text-white transition">
+                 About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/services" className="hover:text-white transition">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#tech-stack" className="hover:text-white transition">
-                  Tech Stack
-                </a>
+                <Link href="/ourwork" className="hover:text-white transition">
+                  Our Work
+                </Link>
               </li>
               <li>
-                <a href="#portfolio" className="hover:text-white transition">
-                  Work
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="hover:text-white transition">
-                  Contact
-                </a>
+                <Link href="/contact" className="hover:text-white transition">
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </nav>

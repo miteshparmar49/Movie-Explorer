@@ -24,7 +24,7 @@ export default function Home() {
           <div>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
               Full-Stack Ecommerce Developer for
-              Neto, Maropost, Shopify & BigCommerce
+              Neto By Maropost, Shopify, wordpress & BigCommerce
             </h1>
 
             <p className="mt-6 text-lg text-white/70">

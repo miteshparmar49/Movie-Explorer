@@ -9,20 +9,19 @@ import {
   SiBigcommerce,
   SiGoogle,
 } from "react-icons/si";
+import Link from "next/link";
 
 const techStack = [
+  { name: "Neto By Maropost", icon: SiGoogle, color: "text-blue-400", href: "/neto" },
+  { name: "Shopify", icon: SiShopify, color: "text-green-400" },
+  { name: "BigCommerce", icon: SiBigcommerce, color: "text-purple-400" },
+  { name: "WordPress", icon: SiWordpress, color: "text-sky-400" },
+  { name: "SEO", icon: SiGoogle, color: "text-yellow-400" },
   { name: "Vue.js", icon: SiVuedotjs, color: "text-green-400" },
   { name: "React", icon: SiReact, color: "text-cyan-400" },
   { name: "Next.js", icon: SiNextdotjs, color: "text-white" },
   { name: "Express", icon: SiExpress, color: "text-gray-300" },
   { name: "Node.js", icon: SiNodedotjs, color: "text-green-500" },
-
-  // platforms
-  { name: "Neto By Maropost", icon: SiGoogle, color: "text-blue-400" },
-  { name: "Shopify", icon: SiShopify, color: "text-green-400" },
-  { name: "BigCommerce", icon: SiBigcommerce, color: "text-purple-400" },
-  { name: "WordPress", icon: SiWordpress, color: "text-sky-400" },
-  { name: "SEO", icon: SiGoogle, color: "text-yellow-400" },
 ];
 
 export default function TechStack() {
@@ -46,9 +45,8 @@ export default function TechStack() {
           {techStack.map((item) => {
             const Icon = item.icon;
 
-            return (
+            const card = (
               <article
-                key={item.name}
                 className="
                   flex flex-col items-center justify-center gap-3
                   rounded-xl border border-white/10
@@ -58,11 +56,19 @@ export default function TechStack() {
                 "
               >
                 <Icon className={`text-4xl ${item.color}`} />
-
                 <h3 className="text-sm font-medium text-white/90">
                   {item.name}
                 </h3>
               </article>
+            );
+
+            // 👉 Only wrap with Link if href exists
+            return item.href ? (
+              <Link key={item.name} href={item.href}>
+                {card}
+              </Link>
+            ) : (
+              <div key={item.name}>{card}</div>
             );
           })}
         </div>
