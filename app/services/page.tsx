@@ -128,19 +128,19 @@ export default function ServicesPage() {
                   </p>
       
                   <div className="mt-8 flex gap-4">
-                    <a
-                      href="#portfolio"
+                    <Link
+                      href="/ourwork"
                       className="bg-white text-black px-6 py-3 rounded-md font-medium"
                     >
                       View Work
-                    </a>
+                    </Link>
       
-                    <a
-                      href="#contact"
+                    <Link
+                      href="/contact"
                       className="border border-white/20 px-6 py-3 rounded-md"
                     >
                       Contact Me
-                    </a>
+                    </Link>
                   </div>
                 </div>
       
