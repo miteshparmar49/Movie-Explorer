@@ -8,7 +8,10 @@ import {
   SiWordpress,
   SiBigcommerce,
   SiGoogle,
+  SiAmazon
 } from "react-icons/si";
+
+import { FaFacebook } from "react-icons/fa";
 import Link from "next/link";
 
 const techStack = [
@@ -22,6 +25,11 @@ const techStack = [
   { name: "Next.js", icon: SiNextdotjs, color: "text-white" },
   { name: "Express", icon: SiExpress, color: "text-gray-300" },
   { name: "Node.js", icon: SiNodedotjs, color: "text-green-500" },
+
+  // New Marketing Platforms
+  { name: "Amazon PPC", icon: SiAmazon, color: "text-yellow-500" },
+  { name: "Meta Ads", icon: FaFacebook, color: "text-blue-500" },
+  { name: "Google Ads", icon: SiGoogle, color: "text-red-500" },
 ];
 
 export default function TechStack() {

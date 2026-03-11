@@ -78,6 +78,9 @@ export default function AboutUs() {
     "Node.js",
     "Next.js",
     "Express.js",
+    "Amazon PPC",
+    "Meta Ads",
+    "Google Ads",
   ];
 
   // Only skills you want to link

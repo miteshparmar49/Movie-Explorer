@@ -5,6 +5,8 @@ import {
   HiOutlineSwitchHorizontal,
   HiOutlineSearch,
   HiOutlineColorSwatch,
+  HiOutlineChartBar,
+  HiOutlineSpeakerphone
 } from "react-icons/hi";
 
 const services = [
@@ -44,6 +46,24 @@ const services = [
     icon: HiOutlineColorSwatch,
     color: "text-pink-400",
   },
+  {
+  title: "Amazon PPC",
+  desc: "Amazon sponsored ads & product sales growth",
+  icon: HiOutlineChartBar,
+  color: "text-yellow-400",
+},
+{
+  title: "Meta Ads",
+  desc: "Facebook & Instagram advertising campaigns",
+  icon: HiOutlineSpeakerphone,
+  color: "text-blue-500",
+},
+{
+  title: "Google Ads",
+  desc: "Search, Shopping & Display advertising",
+  icon: HiOutlineChartBar,
+  color: "text-red-400",
+}
 ];
 
 export default function Services() {
