@@ -69,6 +69,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Inter } from "next/font/google";
+import OfferPopup from "../components/OfferPopup";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -129,6 +130,7 @@ export default function RootLayout({
       <body className="bg-[#0b0f19] text-white">
         <Header />
         <main>{children}</main>
+        <OfferPopup />
         <Footer />
       
       </body>

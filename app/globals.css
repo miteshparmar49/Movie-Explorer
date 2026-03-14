@@ -1,2 +1,121 @@
 @import "tailwindcss";
 
+/* Overlay */
+
+.popup-overlay{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(5,10,30,0.85);
+backdrop-filter: blur(6px);
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:9999;
+animation: fadeIn .4s ease;
+}
+
+
+/* Popup Box */
+
+.popup-box{
+width:420px;
+max-width:90%;
+padding:40px 35px;
+border-radius:16px;
+text-align:center;
+color:#fff;
+position:relative;
+
+/* gradient background */
+background: linear-gradient(135deg,#0b132b,#0a1b3f,#111c44);
+
+/* glow border */
+border:1px solid rgba(255,255,255,0.08);
+
+/* glow shadow */
+box-shadow:
+0 0 40px rgba(80,120,255,0.25),
+0 0 80px rgba(150,80,255,0.15);
+
+animation: popupScale .35s ease;
+}
+
+
+/* Heading */
+
+.popup-box h2{
+font-size:28px;
+margin-bottom:10px;
+font-weight:600;
+}
+
+
+/* Text */
+
+.popup-box p{
+color:#cbd5e1;
+font-size:16px;
+line-height:1.6;
+margin-bottom:25px;
+}
+
+
+/* Button */
+
+.popup-btn{
+display:inline-block;
+padding:13px 30px;
+border-radius:10px;
+background:linear-gradient(90deg,#7c3aed,#2563eb);
+color:#fff;
+font-weight:600;
+text-decoration:none;
+transition:.3s;
+}
+
+.popup-btn:hover{
+transform:translateY(-2px);
+box-shadow:0 12px 30px rgba(120,90,255,0.4);
+}
+
+
+/* Close Button */
+
+.popup-close{
+position:absolute;
+top:12px;
+right:16px;
+background:none;
+border:none;
+color:#aaa;
+font-size:20px;
+cursor:pointer;
+transition:.2s;
+}
+
+.popup-close:hover{
+color:#fff;
+transform:scale(1.1);
+}
+
+
+/* Animations */
+
+@keyframes popupScale{
+from{
+opacity:0;
+transform:scale(.85);
+}
+to{
+opacity:1;
+transform:scale(1);
+}
+}
+
+@keyframes fadeIn{
+from{opacity:0;}
+to{opacity:1;}
+}
