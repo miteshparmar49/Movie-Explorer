@@ -86,7 +86,10 @@ export default function AboutUs() {
   // Only skills you want to link
   const skillLinks: Record<string, string> = {
     "Neto By Maropost": "/neto",
-    "Vue.js": "/services/vue-js",
+    "Shopify": "/shopify",
+    "WordPress": "/wordpress",
+    "BigCommerce": "/bigcommerce",
+    "SEO": "/seo",
   };
 
   return (

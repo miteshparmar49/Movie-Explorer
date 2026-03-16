@@ -16,10 +16,10 @@ import Link from "next/link";
 
 const techStack = [
   { name: "Neto By Maropost", icon: SiGoogle, color: "text-blue-400", href: "/neto" },
-  { name: "Shopify", icon: SiShopify, color: "text-green-400" },
-  { name: "BigCommerce", icon: SiBigcommerce, color: "text-purple-400" },
-  { name: "WordPress", icon: SiWordpress, color: "text-sky-400" },
-  { name: "SEO", icon: SiGoogle, color: "text-yellow-400" },
+  { name: "Shopify", icon: SiShopify, color: "text-green-400", href: "/shopify"  },
+  { name: "BigCommerce", icon: SiBigcommerce, color: "text-purple-400", href: "/bigcommerce"},
+  { name: "WordPress", icon: SiWordpress, color: "text-sky-400", href: "/wordpress" },
+  { name: "SEO", icon: SiGoogle, color: "text-yellow-400", href: "/seo"  },
   { name: "Vue.js", icon: SiVuedotjs, color: "text-green-400" },
   { name: "React", icon: SiReact, color: "text-cyan-400" },
   { name: "Next.js", icon: SiNextdotjs, color: "text-white" },
