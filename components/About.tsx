@@ -68,29 +68,37 @@ import Link from "next/link";
 
 export default function AboutUs() {
   const skills = [
-    "Neto By Maropost",
-    "Shopify",
-    "WordPress",
-    "BigCommerce",
-    "SEO",
-    "Vue.js",
-    "React.js",
-    "Node.js",
-    "Next.js",
-    "Express.js",
-    "Amazon PPC",
-    "Meta Ads",
-    "Google Ads",
-  ];
+  "Neto By Maropost",
+  "Shopify",
+  "WordPress",
+  "BigCommerce",
+  "SEO",
+  "Vue.js",
+  "React.js",
+  "Node.js",
+  "Next.js",
+  "Express.js",
+  "Amazon PPC",
+  "Meta Ads",
+  "Google Ads",
+];
 
-  // Only skills you want to link
-  const skillLinks: Record<string, string> = {
-    "Neto By Maropost": "/neto",
-    "Shopify": "/shopify",
-    "WordPress": "/wordpress",
-    "BigCommerce": "/bigcommerce",
-    "SEO": "/seo",
-  };
+// Updated SEO-friendly links (no /services)
+const skillLinks: Record<string, string> = {
+  "Neto By Maropost": "/neto-by-maropost-development",
+  "Shopify": "/shopify-development-services",
+  "WordPress": "/wordpress-development-services",
+  "BigCommerce": "/bigcommerce-development-services",
+  "SEO": "/seo-services",
+  "Vue.js": "/vue-js-development",
+  "React.js": "/react-js-development",
+  "Node.js": "/node-js-development",
+  "Next.js": "/next-js-development",
+  "Express.js": "/express-js-development",
+  "Amazon PPC": "/amazon-ppc-services",
+  "Meta Ads": "/meta-ads-services",
+  "Google Ads": "/google-ads-services",
+}; 
 
   return (
     <section id="about" className="relative pb-24">
@@ -123,7 +131,7 @@ export default function AboutUs() {
         </p>
 
         {/* Skills */}
-       <div className="mt-10 flex flex-wrap justify-center gap-3">
+       <div className="mt-10 flex flex-wrap justify-center gap-3 mvp_about">
   {skills.map((skill) => {
     const href = skillLinks[skill];
 

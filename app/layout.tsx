@@ -77,9 +77,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mitesh Parmar | Full-Stack Ecommerce Developer",
+  title: "Neto Developer Australia | Shopify & Maropost Experts | MVP Infotech",
   description:
-    "Full-stack ecommerce developer specializing in Neto, Maropost Commerce Cloud, Shopify and BigCommerce. Expert in Next.js, React, Vue and Node.js.",
+    "Looking for a reliable eCommerce developer for Australia? We specialize in Shopify, Neto (Maropost) and custom solutions for Australian businesses.",
 
   alternates: {
     canonical: "https://www.mvpinfotech.in",
@@ -95,9 +95,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Mitesh Parmar | Full-Stack Ecommerce Developer",
-    description:
-      "Full-stack ecommerce developer specializing in Neto, Maropost Commerce Cloud, Shopify and BigCommerce. Expert in Next.js, React, Vue and Node.js.",
+     title: "Neto Developer Australia | Shopify & Maropost Experts | MVP Infotech",
+  description:
+    "Looking for a reliable eCommerce developer for Australia? We specialize in Shopify, Neto (Maropost) and custom solutions for Australian businesses.",
     url: "https://www.mvpinfotech.in",
     siteName: "Mitesh Parmar",
     images: [
@@ -113,9 +113,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Mitesh Parmar | Full-Stack Ecommerce Developer",
-    description:
-      "Full-stack ecommerce developer specializing in Neto, Maropost Commerce Cloud, Shopify and BigCommerce. Expert in Next.js, React, Vue and Node.js.",
+    title: "Neto Developer Australia | Shopify & Maropost Experts | MVP Infotech",
+  description:
+    "Looking for a reliable eCommerce developer for Australia? We specialize in Shopify, Neto (Maropost) and custom solutions for Australian businesses.",
     images: ["/og-image.png"],
   },
 };

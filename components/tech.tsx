@@ -15,21 +15,22 @@ import { FaFacebook } from "react-icons/fa";
 import Link from "next/link";
 
 const techStack = [
-  { name: "Neto By Maropost", icon: SiGoogle, color: "text-blue-400", href: "/neto" },
-  { name: "Shopify", icon: SiShopify, color: "text-green-400", href: "/shopify"  },
-  { name: "BigCommerce", icon: SiBigcommerce, color: "text-purple-400", href: "/bigcommerce"},
-  { name: "WordPress", icon: SiWordpress, color: "text-sky-400", href: "/wordpress" },
-  { name: "SEO", icon: SiGoogle, color: "text-yellow-400", href: "/seo"  },
-  { name: "Vue.js", icon: SiVuedotjs, color: "text-green-400" },
-  { name: "React", icon: SiReact, color: "text-cyan-400" },
-  { name: "Next.js", icon: SiNextdotjs, color: "text-white" },
-  { name: "Express", icon: SiExpress, color: "text-gray-300" },
-  { name: "Node.js", icon: SiNodedotjs, color: "text-green-500" },
+  { name: "Neto By Maropost", icon: SiGoogle, color: "text-blue-400", href: "/neto-by-maropost-development" },
+  { name: "Shopify", icon: SiShopify, color: "text-green-400", href: "/shopify-development-services" },
+  { name: "BigCommerce", icon: SiBigcommerce, color: "text-purple-400", href: "/bigcommerce-development-services" },
+  { name: "WordPress", icon: SiWordpress, color: "text-sky-400", href: "/wordpress-development-services" },
+  { name: "SEO", icon: SiGoogle, color: "text-yellow-400", href: "/seo-services" },
 
-  // New Marketing Platforms
-  { name: "Amazon PPC", icon: SiAmazon, color: "text-yellow-500" },
-  { name: "Meta Ads", icon: FaFacebook, color: "text-blue-500" },
-  { name: "Google Ads", icon: SiGoogle, color: "text-red-500" },
+  { name: "Vue.js", icon: SiVuedotjs, color: "text-green-400", href: "/vue-js-development" },
+  { name: "React", icon: SiReact, color: "text-cyan-400", href: "/react-js-development" },
+  { name: "Next.js", icon: SiNextdotjs, color: "text-white", href: "/next-js-development" },
+  { name: "Express", icon: SiExpress, color: "text-gray-300", href: "/express-js-development" },
+  { name: "Node.js", icon: SiNodedotjs, color: "text-green-500", href: "/node-js-development" },
+
+  // Marketing Platforms
+  { name: "Amazon PPC", icon: SiAmazon, color: "text-yellow-500", href: "/amazon-ppc-services" },
+  { name: "Meta Ads", icon: FaFacebook, color: "text-blue-500", href: "/meta-ads-services" },
+  { name: "Google Ads", icon: SiGoogle, color: "text-red-500", href: "/google-ads-services" },
 ];
 
 export default function TechStack() {

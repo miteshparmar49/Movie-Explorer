@@ -109,7 +109,7 @@ export default function WordPressServicePage() {
               </Link>
 
               <Link
-                href="/work"
+                href="/ourwork"
                 className="border border-white/20 px-6 py-3 rounded-md hover:border-white/40 transition"
               >
                 View Portfolio
