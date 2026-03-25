@@ -70,6 +70,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Inter } from "next/font/google";
 import OfferPopup from "../components/OfferPopup";
+import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -128,6 +129,18 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-smooth ${inter.className}`}>
       <body className="bg-[#0b0f19] text-white">
+         <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-726CX13L75"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-726CX13L75');
+          `}
+        </Script>
         <Header />
         <main>{children}</main>
         <OfferPopup />
