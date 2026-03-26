@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mvpinfotech.in/neto",
+    canonical: "https://www.mvpinfotech.in/neto-by-maropost-development",
   },
 
   openGraph: {
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       "Hire Neto Developer Australia | Maropost Experts - MVP InfoTech",
     description:
       "Australia-focused Neto developers for custom ecommerce, API integrations, B2B solutions, and performance optimization.",
-    url: "https://www.mvpinfotech.in/neto",
+    url: "https://www.mvpinfotech.in/neto-by-maropost-development",
     siteName: "MVP InfoTech",
     type: "website",
     images: [
@@ -83,7 +83,7 @@ export default function NetoServicePage() {
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
               name: "MVP InfoTech - Neto Developer",
-              url: "https://www.mvpinfotech.in/neto",
+              url: "https://www.mvpinfotech.in/neto-by-maropost-development",
               areaServed: {
                 "@type": "Country",
                 name: "Australia",
