@@ -19,14 +19,14 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mvpinfotech.in/wordpress",
+    canonical: "https://www.mvpinfotech.in/wordpress-development-services",
   },
 
   openGraph: {
     title: "WordPress Development Services | MVP InfoTech",
     description:
       "Expert WordPress developers building fast, SEO-friendly and high-converting websites using Elementor and WooCommerce.",
-    url: "https://www.mvpinfotech.in/wordpress",
+    url: "https://www.mvpinfotech.in/wordpress-development-services",
     siteName: "MVP InfoTech",
     type: "website",
     images: [

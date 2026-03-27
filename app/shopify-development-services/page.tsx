@@ -35,14 +35,14 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mvpinfotech.in/shopify",
+    canonical: "https://www.mvpinfotech.in/shopify-development-services",
   },
 
   openGraph: {
     title: "Shopify Development Australia | MVP InfoTech",
     description:
       "Expert Shopify developers in Australia providing store setup, custom themes, dropshipping integrations and ecommerce optimisation.",
-    url: "https://www.mvpinfotech.in/shopify",
+    url: "https://www.mvpinfotech.in/shopify-development-services",
     siteName: "MVP InfoTech",
     type: "website",
     images: [

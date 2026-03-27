@@ -20,14 +20,14 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.mvpinfotech.in/bigcommerce",
+    canonical: "https://www.mvpinfotech.in/bigcommerce-development-services",
   },
 
   openGraph: {
     title: "BigCommerce Development Services | MVP InfoTech",
     description:
       "Expert BigCommerce developers building scalable, high-performance ecommerce stores with custom themes and integrations.",
-    url: "https://www.mvpinfotech.in/bigcommerce",
+    url: "https://www.mvpinfotech.in/bigcommerce-development-services",
     siteName: "MVP InfoTech",
     type: "website",
     images: [
