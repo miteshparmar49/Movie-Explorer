@@ -4,254 +4,239 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.mvpinfotech.in"),
-
   title:
-    "Shopify Development Australia | Shopify Experts, Store Setup & Custom Development",
-
+    "Shopify Development Services Worldwide | Shopify Experts & Ecommerce Solutions",
   description:
-    "Top Shopify development company in Australia offering store setup, custom themes, Shopify SEO, dropshipping integration and ecommerce optimisation. Hire expert Shopify developers in Sydney, Melbourne & Brisbane.",
-
-  keywords: [
-    "Shopify development Australia",
-    "Shopify developers Australia",
-    "Shopify experts Australia",
-    "Shopify website development Australia",
-    "Hire Shopify developer Australia",
-    "Shopify ecommerce development Australia",
-    "Shopify store setup Australia",
-    "Shopify theme customization Australia",
-    "Shopify agency Australia",
-    "Shopify SEO Australia",
-    "Shopify developers Sydney",
-    "Shopify developers Melbourne",
-    "Shopify developers Brisbane",
-    "Shopify Plus developers Australia",
-    "Shopify redesign services Australia",
-    "Shopify migration services Australia",
-    "Custom Shopify development Australia",
-    "Best Shopify agency Australia",
-    "Affordable Shopify developers Australia",
-    "Shopify ecommerce solutions Australia",
-  ],
-
-  alternates: {
-    canonical: "https://www.mvpinfotech.in/shopify-development-services",
-  },
-
-  openGraph: {
-    title: "Shopify Development Australia | MVP InfoTech",
-    description:
-      "Expert Shopify developers in Australia providing store setup, custom themes, dropshipping integrations and ecommerce optimisation.",
-    url: "https://www.mvpinfotech.in/shopify-development-services",
-    siteName: "MVP InfoTech",
-    type: "website",
-    images: [
-      {
-        url: "https://www.mvpinfotech.in/shopify.png",
-        width: 1200,
-        height: 630,
-        alt: "Shopify Ecommerce Development Australia",
-      },
-    ],
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "Shopify Development Australia | MVP InfoTech",
-    description:
-      "Custom Shopify store development in Australia with theme customization and ecommerce optimisation.",
-    images: ["https://www.mvpinfotech.in/shopify.png"],
-  },
-
-  robots: {
-    index: true,
-    follow: true,
-  },
+    "We provide Shopify development services worldwide including Australia, USA, UK, Canada, UAE and India.",
 };
 
 export default function ShopifyServicePage() {
   return (
-    <main className="relative overflow-hidden">
-
-      {/* SCHEMA */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            serviceType: "Shopify Ecommerce Development",
-            provider: {
-              "@type": "Organization",
-              name: "MVP InfoTech",
-              url: "https://www.mvpinfotech.in",
-            },
-            areaServed: {
-              "@type": "Country",
-              name: "Australia",
-            },
-            description:
-              "Professional Shopify development services in Australia including store setup, theme customization, dropshipping integration and SEO optimisation.",
-          }),
-        }}
-      />
+    <main className="bg-[#0b1020] text-white">
 
       {/* HERO */}
       <section className="relative py-24">
-        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#0b1020] via-[#1e3a8a] to-[#0b1020]" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-br from-indigo-900 via-blue-600 to-purple-700 opacity-90" />
 
-        <div className="mx-auto max-w-7xl px-6 grid items-center gap-12 md:grid-cols-2">
-
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-              Shopify Development Services in Australia
+            <h1 className="text-4xl md:text-5xl font-bold">
+              Shopify Development Services 
             </h1>
 
-            <p className="mt-6 text-lg text-white/70">
-              Professional Shopify store setup, customization and optimisation
-              designed to help your ecommerce business grow faster.
+            <p className="mt-6 text-white/80">
+              We provide Shopify development services worldwide including Australia,
+              USA, UK, Canada, UAE and India, helping businesses build high-performing ecommerce stores.
             </p>
 
             <p className="mt-4 text-white/70">
-              We provide Shopify development services across Australia including
-              Sydney, Melbourne and Brisbane. From complete store setup to advanced
-              integrations and performance optimisation.
+              From store setup to custom development, SEO optimisation and performance improvements.
             </p>
 
-            <div className="mt-8 flex gap-4">
-
-              <Link
-                href="/contact"
-                className="bg-white text-black px-6 py-3 rounded-md font-medium hover:bg-white/90 transition"
-              >
+            <div className="mt-8">
+              <Link href="/contact" className="bg-white text-black px-6 py-3 rounded-md">
                 Get Free Consultation
               </Link>
-
-              <Link
-                href="/#services"
-                className="border border-white/20 px-6 py-3 rounded-md hover:border-white/40 transition"
-              >
-                View Services
-              </Link>
-
             </div>
           </div>
 
-          <div className="relative">
-            <div className="relative aspect-[16/11] overflow-hidden rounded-2xl border border-white/10">
-              <Image
-                src="/shopify.png"
-                alt="Shopify ecommerce development Australia"
-                fill
-                priority
-                className="object-cover"
-                sizes="(max-width:768px) 100vw, 50vw"
-              />
-            </div>
+          <div>
+            <Image
+              src="/shopify.png"
+              alt="Shopify development"
+              width={600}
+              height={400}
+              className="rounded-xl shadow-2xl"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* FEATURES */}
+      <section className="py-20 bg-[#111827]">
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+          <div>
+            <h2 className="text-3xl font-semibold">
+              Build Stunning Shopify Stores
+            </h2>
+
+            <p className="mt-6 text-white/70">
+              We create modern Shopify stores with strong UI/UX and high conversions.
+            </p>
+
+            <ul className="mt-6 space-y-3 text-white/70">
+              <li>🚀 Conversion focused design</li>
+              <li>⚡ Fast performance</li>
+              <li>📱 Mobile friendly layout</li>
+              <li>🎯 SEO optimized</li>
+            </ul>
+          </div>
+
+          <div>
+            <Image
+              src="/mobile-ui.png"
+              alt="Mobile ecommerce"
+              width={500}
+              height={400}
+              className="rounded-xl shadow-xl"
+            />
           </div>
 
         </div>
       </section>
 
       {/* SERVICES */}
-      <section className="py-20">
-        <div className="mx-auto max-w-7xl px-6">
+      <section className="py-20 bg-[#0b1020] max-w-7xl mx-auto px-6">
+        <h2 className="text-3xl font-semibold text-center">
+          Our Shopify Services
+        </h2>
 
-          <h2 className="text-3xl font-semibold">
-            Shopify Development Services
-          </h2>
+       <div className="mt-10 grid md:grid-cols-3 gap-6">
+  {[
+    "Complete Shopify store setup (A–Z)",
+    "Custom Shopify theme development",
+    "Premium theme customization",
+    "Homepage, product page and collection page design",
+    "Product listing and catalog management",
+    "SEO optimized product descriptions",
+    "Manual and bulk product upload (CSV)",
+    "Shopify app installation and configuration",
+    "AliExpress, CJ Dropshipping, DSers and AutoDS integrations",
+    "Social media and third-party integrations",
+    "Store optimisation and speed improvement",
+    "Bug fixing and Shopify troubleshooting",
+    "Shopify checkout configuration",
+    "Theme and section upgrades",
+  ].map((item, i) => (
+    <div
+      key={i}
+      className="p-6 rounded-xl bg-gradient-to-br from-indigo-500/20 via-purple-500/20 to-pink-500/20 hover:scale-105 hover:shadow-xl transition duration-300 flex items-start gap-3"
+    >
+      <span className="text-indigo-400 text-lg">✓</span>
+      <p className="text-white/80 text-sm">{item}</p>
+    </div>
+  ))}
+</div>
+      </section>
 
-          <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* ANALYTICS SECTION */}
+      <section className="py-20 bg-[#111827]">
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
-            {[
-              "Complete Shopify store setup (A–Z)",
-              "Custom Shopify theme development",
-              "Premium theme customization",
-              "Homepage, product page and collection page design",
-              "Product listing and catalog management",
-              "SEO optimized product descriptions",
-              "Manual and bulk product upload (CSV)",
-              "Shopify app installation and configuration",
-              "AliExpress, CJ Dropshipping, DSers and AutoDS integrations",
-              "Social media and third-party integrations",
-              "Store optimisation and speed improvement",
-              "Bug fixing and Shopify troubleshooting",
-              "Shopify checkout configuration",
-              "Theme and section upgrades",
-            ].map((item, i) => (
-              <div
-                key={i}
-                className="rounded-xl border border-white/10 bg-white/5 p-6"
-              >
-                <div className="flex gap-3">
-                  <span className="text-indigo-400 font-semibold">✓</span>
-                  <span className="text-white/80 text-sm">{item}</span>
-                </div>
-              </div>
-            ))}
-
+          <div>
+            <Image
+              src="/dashboard.png"
+              alt="Analytics dashboard"
+              width={600}
+              height={400}
+              className="rounded-xl shadow-2xl"
+            />
           </div>
+
+          <div>
+            <h2 className="text-3xl font-semibold">
+              Track & Grow Your Business
+            </h2>
+
+            <p className="mt-6 text-white/70">
+              Monitor performance, track sales and optimise conversions using powerful analytics tools.
+            </p>
+
+            <ul className="mt-6 space-y-3 text-white/70">
+              <li>📊 Sales tracking</li>
+              <li>📈 Growth insights</li>
+              <li>🎯 Conversion analytics</li>
+              <li>⚡ Performance monitoring</li>
+            </ul>
+          </div>
+
         </div>
       </section>
 
       {/* SEO CONTENT */}
-      <section className="py-24 border-t border-white/10">
-        <div className="mx-auto max-w-4xl px-6">
+     <section className="pt-20 max-w-4xl mx-auto px-6">
+  <h2 className="text-3xl font-semibold">
+    Shopify Ecommerce Development for Global Businesses
+  </h2>
 
-          <h2 className="text-3xl font-semibold">
-            Professional Shopify Ecommerce Development in Australia
-          </h2>
+  <p className="mt-6 text-white/70">
+    Shopify is one of the most powerful and widely used ecommerce platforms in the world,
+    enabling businesses to build, manage and scale online stores with ease. Whether you are
+    a startup, small business or enterprise brand, Shopify provides flexible tools and
+    features to create a high-performing ecommerce website. With its user-friendly interface,
+    secure payment gateways and extensive app ecosystem, Shopify allows businesses to deliver
+    seamless shopping experiences to customers across the globe.
+  </p>
 
-          <p className="mt-6 text-white/70">
-            Shopify is one of the most popular ecommerce platforms used by
-            businesses worldwide. It provides powerful tools to manage products,
-            payments, orders and customer experience from a single platform.
-          </p>
+  <p className="mt-4 text-white/70">
+    Our Shopify development services focus on creating fast, responsive and conversion-driven
+    ecommerce stores tailored to your business needs. We specialise in custom Shopify theme
+    development, store setup, product management, app integrations and Shopify SEO optimisation.
+    Our goal is to ensure your online store not only looks professional but also performs
+    exceptionally well in search engines and drives maximum sales.
+  </p>
 
-          <p className="mt-4 text-white/70">
-            Our Shopify development services in Australia focus on building fast,
-            secure and scalable ecommerce stores designed for growth.
-          </p>
+  <p className="mt-4 text-white/70">
+    We provide Shopify development services worldwide including Australia, USA, UK, Canada,
+    UAE and India. Our team works with international clients to deliver scalable ecommerce
+    solutions that help businesses expand their reach and grow globally. From dropshipping
+    store setup to advanced Shopify customisation, we handle every aspect of ecommerce development
+    with precision and expertise.
+  </p>
 
-          <p className="mt-4 text-white/70">
-            From dropshipping integrations to advanced Shopify customisation,
-            we ensure that your online store is fully optimised for performance,
-            SEO visibility and long-term ecommerce success.
-          </p>
+  <p className="mt-4 text-white/70">
+    By combining modern design, performance optimisation and SEO best practices, we help your
+    Shopify store stand out in a competitive market. Whether you need a brand new store or want
+    to improve your existing Shopify website, our expert developers ensure long-term success
+    with reliable, scalable and high-quality ecommerce solutions.
+  </p>
+  <p className="mt-4 text-white/70">
+  We provide professional Shopify development services worldwide including Australia, USA, UK, Canada, UAE and India, helping businesses build scalable, high-performing and SEO-optimized ecommerce stores.
+  </p>
+</section>
+      {/* FAQ */}
+      <section className="py-20 max-w-4xl mx-auto px-6">
+        <h2 className="text-3xl font-semibold">Shopify FAQs</h2>
 
+        <div className="mt-6 space-y-4">
+          <div>
+            <h3 className="font-semibold">What is Shopify development?</h3>
+            <p className="text-white/70">
+              Shopify development includes building and customizing ecommerce stores.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="font-semibold">Do you work globally?</h3>
+            <p className="text-white/70">
+              Yes, we work worldwide including USA, UK and Australia.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="font-semibold">Do you provide SEO?</h3>
+            <p className="text-white/70">
+              Yes, we optimise stores for better ranking.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-24 border-t border-white/10">
-        <div className="mx-auto max-w-4xl px-6 text-center">
+      <section className="py-20 text-center bg-gradient-to-r from-purple-600 to-indigo-600">
+        <h2 className="text-3xl font-semibold">
+          Start Your Shopify Project Today
+        </h2>
 
-          <h2 className="text-3xl md:text-4xl font-semibold">
-            Ready to Launch or Improve Your Shopify Store?
-          </h2>
+        <p className="mt-4 text-white/80">
+          Build your ecommerce store with expert Shopify developers.
+        </p>
 
-          <p className="mt-6 text-white/70">
-            Get expert Shopify development support in Australia and build a high-converting ecommerce store.
-          </p>
-
-          <div className="mt-10 flex justify-center gap-4">
-
-            <Link
-              href="/contact"
-              className="bg-white text-black px-8 py-3 rounded-md font-medium hover:bg-white/90 transition"
-            >
-              Start Your Project
-            </Link>
-
-            <Link
-              href="/#services"
-              className="border border-white/20 px-8 py-3 rounded-md hover:border-white/40 transition"
-            >
-              View Services
-            </Link>
-
-          </div>
-
+        <div className="mt-6">
+          <Link href="/contact" className="bg-white text-black px-8 py-3 rounded-md">
+            Contact Us
+          </Link>
         </div>
       </section>
 
