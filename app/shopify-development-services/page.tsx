@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 
 export default function ShopifyServicePage() {
   return (
-    <main className="bg-[#0b1020] text-white">
+    <main className="">
 
       {/* HERO */}
       <section className="relative py-24">
-        <div className="absolute inset-0 -z-10 bg-gradient-to-br from-indigo-900 via-blue-600 to-purple-700 opacity-90" />
+       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-[#95BF47] via-[#22c55e] to-[#1e3a8a] opacity-90" />
 
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
           <div>
