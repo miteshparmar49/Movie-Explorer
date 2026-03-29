@@ -68,3 +68,7 @@
 .mvp_about > a {
     display: flex;
 }
+strong {
+  color: #ffffff !important;
+  font-weight: 600;
+}

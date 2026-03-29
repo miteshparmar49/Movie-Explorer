@@ -178,42 +178,152 @@ export default function SEOServicePage() {
         </div>
       </section>
 
-      {/* SEO CONTENT */}
-      <section className="py-24 border-t border-white/10">
-        <div className="mx-auto max-w-4xl px-6">
+    {/* SEO CONTENT */}
+<section className="py-24 border-t border-white/10">
+  <div className="mx-auto max-w-4xl px-6">
 
-          <h2 className="text-3xl font-semibold">
-            Technical SEO, On-Page SEO & Link Building
-          </h2>
+    <h2 className="text-3xl font-semibold">
+      Technical SEO, On-Page SEO & Link Building Services
+    </h2>
 
-          <p className="mt-6 text-white/70">
-            Search engine optimization combines multiple strategies including
-            technical SEO, content optimization and high-quality link building
-            to improve a website’s visibility in search engines.
-          </p>
+    <p className="mt-6 text-white/70">
+      Search engine optimization (SEO) is one of the most powerful digital marketing strategies to grow your business online. A successful SEO strategy combines <strong>technical SEO</strong>, <strong>on-page SEO</strong>, and <strong>link building</strong> to improve your website’s visibility on search engines like Google. Our SEO services are designed to help businesses rank higher, attract organic traffic, and generate quality leads.
+    </p>
 
-          <p className="mt-4 text-white/70">
-            Our SEO process begins with a complete website analysis including
-            technical audits, keyword research and competitor analysis. After
-            identifying opportunities, we implement on-page optimization,
-            improve site structure and optimize website content for search
-            engines.
-          </p>
+    <p className="mt-4 text-white/70">
+      Whether you are a startup, small business, or enterprise, investing in <strong>professional SEO services</strong> can significantly improve your online presence. Our team of SEO experts uses proven strategies, advanced tools, and data-driven insights to deliver measurable results and long-term growth.
+    </p>
 
-          <p className="mt-4 text-white/70">
-            Off-page SEO strategies such as backlink building, guest posting
-            and local citations are then implemented to strengthen domain
-            authority and improve rankings for competitive keywords.
-          </p>
+    <h3 className="mt-10 text-2xl font-semibold">
+      Comprehensive Technical SEO Optimization
+    </h3>
 
-          <p className="mt-4 text-white/70">
-            Using tools like SEMrush, Ahrefs, Google Analytics and Search
-            Console, we continuously monitor SEO performance and optimize
-            campaigns for better long-term results.
-          </p>
+    <p className="mt-4 text-white/70">
+      <strong>Technical SEO</strong> is the foundation of a successful website. Without proper technical optimization, even the best content cannot rank on Google. Our technical SEO services focus on improving website performance, crawlability, and indexing.
+    </p>
 
-        </div>
-      </section>
+    <p className="mt-4 text-white/70">
+      We perform a complete <strong>technical SEO audit</strong> to identify issues such as broken links, duplicate content, slow page speed, mobile usability problems, and crawl errors. By fixing these issues, we ensure that search engines can easily crawl and index your website.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      Our technical SEO process includes <strong>website speed optimization</strong>, <strong>core web vitals improvement</strong>, XML sitemap optimization, robots.txt configuration, structured data implementation, and HTTPS security enhancements. These improvements not only boost your rankings but also enhance user experience.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      On-Page SEO Optimization for Higher Rankings
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      <strong>On-page SEO</strong> plays a crucial role in improving your website’s search engine rankings. It involves optimizing individual pages with the right keywords, content structure, and HTML elements.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      Our on-page SEO services include <strong>keyword research</strong>, meta title and description optimization, header tag optimization (H1, H2, H3), image alt tags, and internal linking strategies. We ensure your content is aligned with user intent and search engine algorithms.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      We focus on high-performing keywords such as <strong>SEO services</strong>, <strong>SEO company</strong>, <strong>digital marketing services</strong>, <strong>on-page SEO optimization</strong>, and <strong>website SEO optimization</strong>. These keywords are strategically placed to improve rankings without keyword stuffing.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      Content optimization is another key aspect of on-page SEO. We create and optimize high-quality, engaging, and informative content that provides value to users while improving search engine visibility.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      High-Quality Link Building & Off-Page SEO
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      <strong>Link building</strong> is an essential part of off-page SEO that helps improve your website’s authority and credibility. Search engines consider backlinks as votes of confidence from other websites.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      Our <strong>off-page SEO strategies</strong> include high-quality backlink building, guest posting, business directory submissions, and local citations. We focus on acquiring links from authoritative and relevant websites to boost your domain authority.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      We follow white-hat SEO techniques to ensure safe and sustainable growth. Our link building strategies help improve rankings for competitive keywords and drive targeted traffic to your website.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Keyword Research & Competitor Analysis
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      Effective SEO starts with in-depth <strong>keyword research</strong> and <strong>competitor analysis</strong>. We identify high-volume, low-competition keywords that can drive targeted traffic to your website.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      By analyzing your competitors, we understand their strategies and identify opportunities to outperform them. This helps us create a data-driven SEO strategy tailored to your business goals.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Local SEO & Google Ranking Optimization
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      If you want to attract local customers, <strong>local SEO</strong> is essential. We optimize your website for location-based keywords and improve your visibility in Google Maps and local search results.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      Our local SEO services include Google Business Profile optimization, local citations, reviews management, and location-based keyword targeting. This helps your business rank higher for searches like “SEO services near me” and “SEO company in India.”
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      SEO Tools & Performance Tracking
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      We use industry-leading tools such as <strong>SEMrush</strong>, <strong>Ahrefs</strong>, <strong>Google Analytics</strong>, and <strong>Google Search Console</strong> to track and measure SEO performance.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      These tools help us monitor keyword rankings, website traffic, backlinks, and user behavior. Based on the data, we continuously optimize your SEO campaigns to achieve better results.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Why Choose Our SEO Services?
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      Our SEO services are designed to deliver long-term results. We focus on ethical, data-driven, and result-oriented strategies to help your business grow online.
+    </p>
+
+    <ul className="mt-4 list-disc pl-6 text-white/70 space-y-2">
+      <li>Expert team in <strong>technical SEO</strong>, <strong>on-page SEO</strong>, and <strong>link building</strong></li>
+      <li>Customized SEO strategies for your business</li>
+      <li>White-hat SEO practices</li>
+      <li>Improved rankings and organic traffic</li>
+      <li>Transparent reporting and performance tracking</li>
+    </ul>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Grow Your Business with SEO
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      SEO is a long-term investment that delivers sustainable growth. With the right SEO strategy, your website can attract high-quality traffic, generate leads, and increase conversions.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      Our goal is to help your business achieve higher rankings on Google, improve online visibility, and stay ahead of the competition. By combining <strong>technical SEO</strong>, <strong>on-page SEO</strong>, and <strong>off-page SEO</strong>, we create a complete optimization strategy that delivers real results.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Get Started with Professional SEO Services
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      If you are looking for a reliable <strong>SEO company</strong> to improve your website rankings, we are here to help. Our team of experts will analyze your website, identify opportunities, and implement strategies that drive growth.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      Contact us today to boost your online presence with our <strong>SEO services</strong>, <strong>link building strategies</strong>, and <strong>website optimization solutions</strong>.
+    </p>
+
+  </div>
+</section>
 
       {/* WHY WORK WITH US */}
       <section className="py-20 border-t border-white/10">
