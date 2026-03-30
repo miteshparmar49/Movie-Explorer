@@ -156,44 +156,134 @@ export default function ShopifyServicePage() {
 
       {/* SEO CONTENT */}
      <section className="pt-20 max-w-4xl mx-auto px-6">
+  
   <h2 className="text-3xl font-semibold">
-    Shopify Ecommerce Development for Global Businesses
+    Shopify Ecommerce Development Services for Global Businesses
   </h2>
 
   <p className="mt-6 text-white/70">
-    Shopify is one of the most powerful and widely used ecommerce platforms in the world,
-    enabling businesses to build, manage and scale online stores with ease. Whether you are
-    a startup, small business or enterprise brand, Shopify provides flexible tools and
-    features to create a high-performing ecommerce website. With its user-friendly interface,
-    secure payment gateways and extensive app ecosystem, Shopify allows businesses to deliver
-    seamless shopping experiences to customers across the globe.
+    <strong>Shopify ecommerce development</strong> is one of the most effective ways to build a scalable, high-performing and conversion-focused online store. 
+    <strong>Shopify</strong> is a leading ecommerce platform trusted by millions of businesses worldwide, from startups to enterprise-level brands. 
+    It offers a powerful combination of flexibility, security and ease of use, allowing businesses to create professional online stores without technical complexity. 
+    With built-in features, seamless integrations and a vast app ecosystem, <strong>Shopify store development</strong> helps businesses launch and grow faster in today’s competitive digital market.
   </p>
 
   <p className="mt-4 text-white/70">
-    Our Shopify development services focus on creating fast, responsive and conversion-driven
-    ecommerce stores tailored to your business needs. We specialise in custom Shopify theme
-    development, store setup, product management, app integrations and Shopify SEO optimisation.
-    Our goal is to ensure your online store not only looks professional but also performs
-    exceptionally well in search engines and drives maximum sales.
+    Our <strong>Shopify development services</strong> are designed to help businesses build fully customised, high-converting and SEO-friendly ecommerce websites. 
+    Whether you need a brand-new store or want to improve an existing one, our expert <strong>Shopify developers</strong> deliver tailored solutions that match your business goals. 
+    We specialise in <strong>custom Shopify theme development</strong>, <strong>Shopify store setup</strong>, <strong>Shopify app integration</strong>, 
+    <strong>Shopify SEO optimisation</strong> and performance enhancement to ensure your store stands out and generates consistent sales.
+  </p>
+
+  <h3 className="mt-10 text-2xl font-semibold">
+    Why Choose Shopify for Ecommerce Development?
+  </h3>
+
+  <p className="mt-4 text-white/70">
+    <strong>Shopify website development</strong> is the preferred choice for businesses because of its reliability and scalability. 
+    It provides a secure environment with built-in hosting, SSL certification and fast loading speeds. 
+    The platform supports multiple payment gateways, making it easy to accept payments globally. 
+    With its user-friendly dashboard, managing products, orders and customers becomes simple even for non-technical users.
   </p>
 
   <p className="mt-4 text-white/70">
-    We provide Shopify development services worldwide including Australia, USA, UK, Canada,
-    UAE and India. Our team works with international clients to deliver scalable ecommerce
-    solutions that help businesses expand their reach and grow globally. From dropshipping
-    store setup to advanced Shopify customisation, we handle every aspect of ecommerce development
-    with precision and expertise.
+    Another major advantage of <strong>Shopify ecommerce solutions</strong> is its flexibility. 
+    Businesses can customise their stores using <strong>Shopify themes</strong>, apps and APIs to create unique shopping experiences. 
+    From small online stores to large-scale ecommerce platforms, Shopify adapts to your needs and supports business growth efficiently.
+  </p>
+
+  <h3 className="mt-10 text-2xl font-semibold">
+    Our Shopify Development Services
+  </h3>
+
+  <p className="mt-4 text-white/70">
+    We offer complete <strong>Shopify ecommerce development services</strong> to help businesses succeed online. 
+    Our services include <strong>Shopify store setup</strong>, <strong>custom Shopify design</strong>, 
+    <strong>Shopify theme customization</strong>, <strong>Shopify app development</strong>, 
+    <strong>Shopify API integration</strong> and <strong>Shopify performance optimisation</strong>.
   </p>
 
   <p className="mt-4 text-white/70">
-    By combining modern design, performance optimisation and SEO best practices, we help your
-    Shopify store stand out in a competitive market. Whether you need a brand new store or want
-    to improve your existing Shopify website, our expert developers ensure long-term success
-    with reliable, scalable and high-quality ecommerce solutions.
+    Our team of experienced <strong>Shopify experts</strong> ensures that every store we build is mobile-responsive, fast-loading and conversion-optimised. 
+    We focus on delivering seamless user experiences that improve engagement and increase sales. 
+    From homepage design to checkout optimisation, every element is crafted to maximise results.
   </p>
+
+  <h3 className="mt-10 text-2xl font-semibold">
+    Custom Shopify Theme Development
+  </h3>
+
   <p className="mt-4 text-white/70">
-  We provide professional Shopify development services worldwide including Australia, USA, UK, Canada, UAE and India, helping businesses build scalable, high-performing and SEO-optimized ecommerce stores.
+    A unique design plays a crucial role in ecommerce success. Our <strong>custom Shopify theme development</strong> services ensure that your store reflects your brand identity. 
+    We create visually appealing, user-friendly and SEO-optimised themes that enhance user experience and improve conversions. 
+    Whether you need a completely custom design or modifications to an existing theme, our <strong>Shopify theme developers</strong> deliver high-quality results.
   </p>
+
+  <h3 className="mt-10 text-2xl font-semibold">
+    Shopify SEO Optimisation Services
+  </h3>
+
+  <p className="mt-4 text-white/70">
+    Building a store is not enough — it needs visibility. Our <strong>Shopify SEO services</strong> help your website rank higher on search engines. 
+    We optimise product pages, meta tags, URLs, images and site structure to improve organic traffic. 
+    With advanced <strong>ecommerce SEO strategies</strong>, we ensure your Shopify store attracts the right audience and generates consistent leads.
+  </p>
+
+  <h3 className="mt-10 text-2xl font-semibold">
+    Shopify App Integration & Custom Development
+  </h3>
+
+  <p className="mt-4 text-white/70">
+    Shopify offers thousands of apps, but choosing and integrating the right ones is critical. 
+    Our <strong>Shopify app integration services</strong> help you extend your store’s functionality with tools for marketing, inventory, analytics and more. 
+    We also provide <strong>custom Shopify app development</strong> to build unique features tailored to your business requirements.
+  </p>
+
+  <h3 className="mt-10 text-2xl font-semibold">
+    Shopify Store Migration Services
+  </h3>
+
+  <p className="mt-4 text-white/70">
+    Looking to move your existing store to Shopify? Our <strong>Shopify migration services</strong> ensure a smooth and secure transition from platforms like WooCommerce, Magento or Neto. 
+    We migrate products, customers, orders and SEO data without affecting performance or rankings.
+  </p>
+
+  <h3 className="mt-10 text-2xl font-semibold">
+    Global Shopify Development Solutions
+  </h3>
+
+  <p className="mt-4 text-white/70">
+    We provide <strong>Shopify development services worldwide</strong> including Australia, USA, UK, Canada, UAE and India. 
+    Our team works with international clients to deliver scalable ecommerce solutions tailored to global markets. 
+    Whether you are targeting local customers or expanding globally, our <strong>Shopify ecommerce experts</strong> help you achieve your business goals.
+  </p>
+
+  <h3 className="mt-10 text-2xl font-semibold">
+    Why Choose Our Shopify Developers?
+  </h3>
+
+  <p className="mt-4 text-white/70">
+    Choosing the right development partner is crucial. Our <strong>Shopify developers</strong> bring years of experience in building high-performance ecommerce stores. 
+    We focus on quality, performance and long-term success. With a deep understanding of <strong>Shopify ecommerce development</strong>, 
+    we deliver solutions that drive traffic, improve conversions and increase revenue.
+  </p>
+
+  <p className="mt-4 text-white/70">
+    We follow best practices in design, development and SEO to ensure your store performs exceptionally well. 
+    From strategy to execution, our team supports you at every stage of your ecommerce journey.
+  </p>
+
+  <h3 className="mt-10 text-2xl font-semibold">
+    Conclusion
+  </h3>
+
+  <p className="mt-4 text-white/70">
+    <strong>Shopify ecommerce development</strong> is the perfect solution for businesses looking to build a powerful online presence. 
+    With our expert <strong>Shopify development services</strong>, you can create a professional, scalable and high-performing ecommerce store that drives growth and success. 
+    Whether you need <strong>Shopify store setup</strong>, <strong>custom development</strong>, <strong>SEO optimisation</strong> or ongoing support, 
+    we are here to help you achieve your ecommerce goals.
+  </p>
+
 </section>
       {/* FAQ */}
       <section className="py-20 max-w-4xl mx-auto px-6">

@@ -25,7 +25,7 @@ export default function Footer() {
 
       <div>
 
-        <div className="mx-auto max-w-7xl px-6 py-16 grid gap-12 md:grid-cols-[2fr_1fr_1fr] items-start">
+      <div className="mx-auto max-w-7xl px-6 py-16 grid gap-12 lg:grid-cols-[2.2fr_1fr_1fr_1.2fr] md:grid-cols-2">
 
           {/* Left */}
           <div>
@@ -49,7 +49,7 @@ export default function Footer() {
 
           {/* Quick links */}
           <nav aria-label="Footer navigation">
-            <p className="font-semibold mb-5 text-white">Our Services</p>
+            <p className="font-semibold mb-5 text-white">HELP & INFO</p>
 
             <ul className="space-y-3 text-sm text-white/70">
               <li>
@@ -72,8 +72,88 @@ export default function Footer() {
                   Contact Us
                 </Link>
               </li>
+               <li>
+                <Link href="/next-js-development" className="hover:text-white transition">
+                  Next js
+                </Link>
+              </li>
+               <li>
+                <Link href="/express-js-development" className="hover:text-white transition">
+                Express js
+                </Link>
+              </li>
+              <li>
+                <Link href="/amazon-ppc-services" className="hover:text-white transition">
+               Amazon ppc
+                </Link>
+              </li>
+                <li>
+                <Link href="/meta-ads-services" className="hover:text-white transition">
+               Meta Ads
+                </Link>
+              </li>
+                 <li>
+                <Link href="/google-ads-services" className="hover:text-white transition">
+             Google-Ads
+                </Link>
+              </li>
             </ul>
           </nav>
+
+
+
+
+
+
+        <nav aria-label="Footer navigation">
+            <p className="font-semibold mb-5 text-white">Our Services</p>
+
+            <ul className="space-y-3 text-sm text-white/70">
+              <li>
+                <Link href="/neto-by-maropost-development" className="hover:text-white transition">
+                 Neto by Maropost
+                </Link>
+              </li>
+              <li>
+                <Link href="/shopify-development-services" className="hover:text-white transition">
+                  Shopify
+                </Link>
+              </li>
+              <li>
+                <Link href="/wordpress-development-services" className="hover:text-white transition">
+                 wordpress
+                </Link>
+              </li>
+              <li>
+                <Link href="/bigcommerce-development-services" className="hover:text-white transition">
+                  Bigcommerce
+                </Link>
+              </li>
+              <li>
+                <Link href="/seo-services" className="hover:text-white transition">
+                  SEO-services
+                </Link>
+              </li>
+               <li>
+                <Link href="/vue-js-development" className="hover:text-white transition">
+                  vue js
+                </Link>
+              </li>
+               <li>
+                <Link href="/react-js-development" className="hover:text-white transition">
+                  React js
+                </Link>
+              </li>
+               <li>
+                <Link href="/node-js-development" className="hover:text-white transition">
+                Node js
+                </Link>
+              </li>
+            </ul>
+          </nav>
+
+
+
 
           {/* Contact */}
           <address className="not-italic">

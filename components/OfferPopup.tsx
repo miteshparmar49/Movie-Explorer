@@ -37,7 +37,7 @@ export default function OfferPopup() {
       <h3>🚀 Special Offer</h3>
 
       <p>
-        Get <strong>20% OFF</strong> on your website development project.
+        Get <b>20% OFF</b> on your website development project.
       </p>
 
       <a href="/contact" className="popup-btn" onClick={closePopup}>
