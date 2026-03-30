@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Allinone from "@/components/allinobe";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.mvpinfotech.in"),
@@ -324,6 +325,7 @@ export default function SEOServicePage() {
 
   </div>
 </section>
+<Allinone/>
 
       {/* WHY WORK WITH US */}
       <section className="py-20 border-t border-white/10">

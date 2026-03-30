@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Allinone from "@/components/allinobe";
 
 export const metadata: Metadata = {
   title: "Google Ads Expert Australia | PPC & Search Ads Specialist",
@@ -105,31 +106,139 @@ export default function GoogleAdsPage() {
 
       {/* CONTENT */}
       <section className="py-24 border-t border-white/10">
-        <div className="mx-auto max-w-4xl px-6">
+  <div className="mx-auto max-w-4xl px-6">
 
-          <h2 className="text-3xl font-semibold">
-            Grow Your Business with Google Ads
-          </h2>
+    <h2 className="text-3xl font-semibold">
+      Google Ads Management Services to Generate High-Quality Leads & Sales
+    </h2>
 
-          <p className="mt-6 text-white/80">
-            Google Ads is one of the most powerful platforms to generate high-quality leads and traffic.
-          </p>
+    <p className="mt-6 text-white/80">
+      <strong>Google Ads management</strong> is one of the most powerful digital marketing strategies to generate high-quality leads, increase website traffic and drive sales. 
+      <strong>Google Ads</strong> allows businesses to appear at the top of search results, targeting users who are actively searching for products or services. 
+      With the right <strong>PPC (Pay-Per-Click) strategy</strong>, businesses can achieve instant visibility and measurable results.
+    </p>
 
-          <p className="mt-4 text-white/80">
-            I manage campaigns that focus on conversions, ROI and long-term growth.
-          </p>
+    <p className="mt-4 text-white/80">
+      Our <strong>Google Ads services</strong> focus on creating high-performing, conversion-driven campaigns that maximise ROI and minimise wasted ad spend. 
+      Whether you want to generate leads, increase ecommerce sales or promote your services, our expert <strong>Google Ads specialists</strong> deliver tailored strategies based on your business goals.
+    </p>
 
-          <h2 className="text-2xl font-semibold mt-10">
-            Data-Driven PPC Strategy
-          </h2>
+    <h3 className="mt-10 text-2xl font-semibold">
+      Why Google Ads is Important for Your Business
+    </h3>
 
-          <p className="mt-4 text-white/80">
-            Every campaign is optimized using analytics and performance data for best results.
-          </p>
+    <p className="mt-4 text-white/80">
+      <strong>Google Ads advertising</strong> helps businesses reach customers at the exact moment they are searching for solutions. 
+      This makes it one of the highest-converting marketing channels. With proper <strong>keyword targeting</strong> and ad optimization, businesses can drive relevant traffic and increase conversions.
+    </p>
 
-        </div>
-      </section>
+    <p className="mt-4 text-white/80">
+      Another advantage of <strong>Google PPC campaigns</strong> is full control over budget and targeting. 
+      You can scale campaigns based on performance and achieve consistent growth. With the right strategy, <strong>Google Ads management</strong> delivers long-term profitability.
+    </p>
 
+    <h3 className="mt-10 text-2xl font-semibold">
+      Our Google Ads Management Services
+    </h3>
+
+    <p className="mt-4 text-white/80">
+      We provide complete <strong>Google Ads management services</strong> including <strong>campaign setup</strong>, 
+      <strong>keyword research</strong>, <strong>ad copy creation</strong>, 
+      <strong>bid management</strong>, <strong>conversion tracking</strong> and ongoing optimization.
+    </p>
+
+    <p className="mt-4 text-white/80">
+      Our experienced <strong>Google Ads experts</strong> continuously monitor and optimize campaigns to improve performance. 
+      We focus on increasing conversions while reducing cost per click (CPC) and cost per acquisition (CPA).
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Keyword Research & Targeting Strategy
+    </h3>
+
+    <p className="mt-4 text-white/80">
+      Successful campaigns start with the right keywords. Our <strong>Google Ads keyword research</strong> identifies high-intent keywords that drive conversions. 
+      We use data-driven insights to target keywords that generate maximum ROI.
+    </p>
+
+    <p className="mt-4 text-white/80">
+      Our <strong>PPC strategy</strong> includes search ads, display ads and remarketing campaigns to capture users at different stages of the buying journey.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      High-Converting Ad Copy & Landing Pages
+    </h3>
+
+    <p className="mt-4 text-white/80">
+      Ad copy plays a crucial role in campaign success. Our <strong>Google Ads copywriting</strong> focuses on creating compelling headlines and descriptions that drive clicks and conversions. 
+      We also optimise landing pages to ensure a seamless user experience.
+    </p>
+
+    <p className="mt-4 text-white/80">
+      By aligning ad messaging with landing page content, we improve quality score and reduce cost per click.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Data-Driven Campaign Optimization
+    </h3>
+
+    <p className="mt-4 text-white/80">
+      Our <strong>data-driven Google Ads strategy</strong> ensures continuous improvement and performance growth. 
+      We analyse metrics such as CTR, conversion rate, CPC, CPA and ROI to optimize campaigns.
+    </p>
+
+    <p className="mt-4 text-white/80">
+      We scale high-performing campaigns and eliminate underperforming ones to maximise results.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Google Ads for Lead Generation & Ecommerce
+    </h3>
+
+    <p className="mt-4 text-white/80">
+      Our <strong>Google Ads services</strong> are designed for both lead generation and ecommerce businesses. 
+      We create targeted campaigns that generate high-quality leads and drive sales.
+    </p>
+
+    <p className="mt-4 text-white/80">
+      Whether you are promoting services or selling products, our <strong>Google PPC management</strong> ensures measurable and scalable results.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Global Google Ads Services
+    </h3>
+
+    <p className="mt-4 text-white/80">
+      We provide <strong>Google Ads services worldwide</strong> including USA, UK, Canada, Australia, UAE and India. 
+      Our team works with global clients to deliver high-performing campaigns tailored to different markets.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Why Choose Our Google Ads Experts?
+    </h3>
+
+    <ul className="mt-4 list-disc pl-6 text-white/80 space-y-2">
+      <li><strong>Experienced Google Ads specialists</strong></li>
+      <li><strong>Data-driven PPC campaign strategy</strong></li>
+      <li><strong>Advanced keyword targeting and optimization</strong></li>
+      <li><strong>High-converting ad copy and landing pages</strong></li>
+      <li><strong>ROI-focused campaign management</strong></li>
+      <li><strong>Affordable pricing and ongoing support</strong></li>
+    </ul>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Conclusion
+    </h3>
+
+    <p className="mt-4 text-white/80">
+      <strong>Google Ads management</strong> is one of the fastest ways to grow your business and generate leads. 
+      With our expert <strong>Google Ads services</strong>, you can run high-performing campaigns that deliver measurable results. 
+      Whether you want to increase traffic, generate leads or boost sales, our team is ready to help you succeed.
+    </p>
+
+  </div>
+</section>
+<Allinone/>
       {/* CTA */}
       <section className="pt-24 border-t border-white/10">
         <div className="mx-auto max-w-4xl px-6 text-center">

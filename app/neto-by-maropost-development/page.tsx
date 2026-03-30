@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Allinone from "@/components/allinobe";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.mvpinfotech.in"),
@@ -333,6 +334,7 @@ export default function NetoServicePage() {
 
   </div>
 </section>
+<Allinone/>
 
       {/* LOCATION */}
    <section className="pt-24 border-t border-white/10">

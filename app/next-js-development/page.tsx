@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Allinone from "@/components/allinobe";
 
 export const metadata: Metadata = {
   title: "Hire Next.js Developer Australia | Next.js Expert",
@@ -105,31 +106,142 @@ export default function NextjsServicePage() {
 
       {/* CONTENT */}
       <section className="py-24 border-t border-white/10">
-        <div className="mx-auto max-w-4xl px-6">
+  <div className="mx-auto max-w-4xl px-6">
 
-          <h2 className="text-3xl font-semibold">
-            Hire Next.js Developer for High Performance Apps
-          </h2>
+    <h2 className="text-3xl font-semibold">
+      Hire Next.js Developer for High-Performance Web Applications
+    </h2>
 
-          <p className="mt-6 text-white/70">
-            Next.js provides powerful features like server-side rendering and static generation.
-          </p>
+    <p className="mt-6 text-white/70">
+      <strong>Next.js development</strong> is one of the most advanced solutions for building fast, SEO-friendly and scalable web applications. 
+      <strong>Next.js</strong> is a powerful React framework that enables features like server-side rendering (SSR), static site generation (SSG) and API routes. 
+      With its modern architecture and performance optimization capabilities, <strong>Next.js web development</strong> helps businesses create high-performing websites and applications.
+    </p>
 
-          <p className="mt-4 text-white/70">
-            I build scalable applications including SaaS platforms, landing pages and enterprise apps.
-          </p>
+    <p className="mt-4 text-white/70">
+      Our <strong>Next.js development services</strong> are focused on building lightning-fast, SEO-optimized and scalable applications. 
+      Whether you need a SaaS platform, landing page, ecommerce frontend or enterprise application, our expert <strong>Next.js developers</strong> deliver custom solutions tailored to your business needs.
+    </p>
 
-          <h2 className="text-2xl font-semibold mt-10">
-            Custom Next.js Solutions
-          </h2>
+    <h3 className="mt-10 text-2xl font-semibold">
+      Why Choose Next.js for Web Development?
+    </h3>
 
-          <p className="mt-4 text-white/70">
-            Every project is optimized for performance, SEO and scalability.
-          </p>
+    <p className="mt-4 text-white/70">
+      <strong>Next.js development</strong> offers significant advantages in terms of performance and SEO. 
+      With server-side rendering and static generation, websites load faster and rank better on search engines. 
+      This makes <strong>Next.js website development</strong> ideal for businesses looking to improve visibility and user experience.
+    </p>
 
-        </div>
-      </section>
+    <p className="mt-4 text-white/70">
+      Another key benefit of <strong>Next.js framework</strong> is its flexibility. 
+      It allows developers to build both static and dynamic applications with ease. 
+      Features like automatic code splitting, image optimization and API routes make development faster and more efficient.
+    </p>
 
+    <h3 className="mt-10 text-2xl font-semibold">
+      Custom Next.js Development Services
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      We offer complete <strong>Next.js development services</strong> tailored to your business requirements. 
+      Our services include <strong>Next.js web application development</strong>, <strong>Next.js SaaS development</strong>, 
+      <strong>custom frontend development</strong>, and <strong>Next.js landing page development</strong>.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      Our experienced <strong>Next.js developers</strong> focus on building scalable, maintainable and high-performance applications. 
+      We follow best practices to ensure your application delivers exceptional speed and user experience.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Next.js Frontend Development for SEO & Performance
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      One of the biggest advantages of <strong>Next.js frontend development</strong> is its SEO capability. 
+      With server-side rendering, search engines can easily crawl and index your content, improving rankings.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      We build responsive, fast-loading and SEO-optimized interfaces using modern design principles. 
+      Our <strong>Next.js developers</strong> ensure your website provides a seamless user experience across all devices.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Next.js API Routes & Backend Integration
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      <strong>Next.js</strong> also supports backend functionality through API routes. 
+      Our <strong>Next.js development services</strong> include building APIs, integrating third-party services and connecting frontend with backend systems.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      Whether you are building a SaaS application or enterprise platform, our <strong>Next.js developers</strong> ensure seamless data handling and integration.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Next.js Performance Optimization
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      Performance is a key factor in modern web development. Our <strong>Next.js performance optimization</strong> services ensure your application loads quickly and runs efficiently. 
+      We implement techniques like code splitting, lazy loading, caching and image optimization.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      A fast-loading <strong>Next.js application</strong> improves user engagement, reduces bounce rate and enhances SEO performance.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Scalable Next.js Application Development
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      Our <strong>Next.js application development</strong> focuses on scalability and long-term growth. 
+      We build applications that can handle high traffic, complex features and business expansion without performance issues.
+    </p>
+
+    <p className="mt-4 text-white/70">
+      From startup MVPs to enterprise-level solutions, our <strong>Next.js developers</strong> deliver scalable and reliable applications tailored to your needs.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Global Next.js Development Services
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      We provide <strong>Next.js development services worldwide</strong> including Australia, USA, UK, Canada, UAE and India. 
+      Our team works with international clients to deliver high-quality applications that meet global standards.
+    </p>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Why Hire Our Next.js Developers?
+    </h3>
+
+    <ul className="mt-4 list-disc pl-6 text-white/70 space-y-2">
+      <li><strong>Experienced Next.js developers</strong> with React expertise</li>
+      <li><strong>Custom web application development</strong></li>
+      <li><strong>SEO-friendly and high-performance solutions</strong></li>
+      <li><strong>Fast loading speed and optimization</strong></li>
+      <li><strong>API integration and scalable architecture</strong></li>
+      <li><strong>Affordable pricing and ongoing support</strong></li>
+    </ul>
+
+    <h3 className="mt-10 text-2xl font-semibold">
+      Conclusion
+    </h3>
+
+    <p className="mt-4 text-white/70">
+      <strong>Next.js development</strong> is the perfect choice for building fast, SEO-optimized and scalable web applications. 
+      With our expert <strong>Next.js development services</strong>, you can create high-performance applications that deliver exceptional user experiences. 
+      Whether you need a SaaS platform, landing page or enterprise solution, our team is ready to help you achieve your business goals.
+    </p>
+
+  </div>
+</section>
+<Allinone/>
       {/* CTA */}
       <section className="pt-24 border-t border-white/10">
         <div className="mx-auto max-w-4xl px-6 text-center">

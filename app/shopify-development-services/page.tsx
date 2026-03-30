@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Allinone from "@/components/allinobe";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.mvpinfotech.in"),
@@ -285,6 +286,8 @@ export default function ShopifyServicePage() {
   </p>
 
 </section>
+<Allinone/>
+
       {/* FAQ */}
       <section className="py-20 max-w-4xl mx-auto px-6">
         <h2 className="text-3xl font-semibold">Shopify FAQs</h2>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Allinone from "@/components/allinobe";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.mvpinfotech.in"),
@@ -358,7 +359,7 @@ export default function BigCommerceServicePage() {
 
   </div>
 </section>
-
+<Allinone/>
       {/* CTA */}
       <section className="py-24 border-t border-white/10">
         <div className="mx-auto max-w-4xl px-6 text-center">

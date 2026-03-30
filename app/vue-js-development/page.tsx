@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Allinone from "@/components/allinobe";
 
 export const metadata: Metadata = {
   title: "Hire Vue.js Developer Australia | Vue Expert",
@@ -240,6 +241,7 @@ export default function VueServicePage() {
 
   </div>
 </section>
+<Allinone/>
 
       {/* CTA */}
       <section className="pt-24 border-t border-white/10">
