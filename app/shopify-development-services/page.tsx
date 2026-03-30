@@ -156,7 +156,7 @@ export default function ShopifyServicePage() {
       </section>
 
       {/* SEO CONTENT */}
-     <section className="pt-20 max-w-4xl mx-auto px-6">
+     <section className="py-20 max-w-4xl mx-auto px-6">
   
   <h2 className="text-3xl font-semibold">
     Shopify Ecommerce Development Services for Global Businesses
@@ -289,7 +289,7 @@ export default function ShopifyServicePage() {
 <Allinone/>
 
       {/* FAQ */}
-      <section className="py-20 max-w-4xl mx-auto px-6">
+      <section className="pb-20 max-w-4xl mx-auto px-6">
         <h2 className="text-3xl font-semibold">Shopify FAQs</h2>
 
         <div className="mt-6 space-y-4">
