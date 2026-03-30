@@ -1,3 +1,5 @@
+import TechStack from "@/components/tech";
+
 export const metadata = {
   title: "Services | MVP Infotech – Full-Stack Ecommerce Development",
   description:
@@ -159,49 +161,8 @@ export default function ServicesPage() {
               </div>
             </section>
       
- <section id="tech-stack" className="relative">
-      <div className="mx-auto max-w-7xl px-6">
-
-        {/* heading */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-semibold">
-            Tech Stack & Platforms
-          </h2>
-          <p className="mt-3 text-white/60 text-sm md:text-base">
-            Technologies and ecommerce platforms I use to build fast, scalable and SEO-friendly web
-            and ecommerce solutions.
-          </p>
-        </div>
-
-        {/* grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5">
-          {techStack.map((item) => {
-            const Icon = item.icon;
-
-            return (
-              <article
-                key={item.name}
-                className="
-                  flex flex-col items-center justify-center gap-3
-                  rounded-xl border border-white/10
-                  bg-white/5 backdrop-blur-md
-                  px-4 py-6
-                  transition hover:-translate-y-1 hover:border-white/20
-                "
-              >
-                <Icon className={`text-4xl ${item.color}`} />
-
-                <h3 className="text-sm font-medium text-white/90">
-                  {item.name}
-                </h3>
-              </article>
-            );
-          })}
-        </div>
-
-      </div>
-    </section>
-
+ 
+<TechStack/>
 
       {/* Services Grid */}
       <section className="py-20">
