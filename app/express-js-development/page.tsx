@@ -60,7 +60,7 @@ export default function ExpressServicePage() {
           <div className="relative">
             <div className="relative aspect-[16/11] overflow-hidden rounded-2xl border border-white/10">
               <Image
-                src="/express.png"
+                src="/Express.png"
                 alt="Express.js development"
                 fill
                 className="object-cover"
