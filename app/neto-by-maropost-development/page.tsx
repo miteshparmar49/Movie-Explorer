@@ -38,7 +38,8 @@ export const metadata: Metadata = {
     "Neto partner agency",
     "Neto Maropost experts / developers",
     "Neto commerce website development",
-    "neto ecommerce seo"
+    "neto ecommerce seo",
+    "neto development company"
   ],
 
   alternates: {

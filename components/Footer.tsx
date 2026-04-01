@@ -7,7 +7,6 @@ import {
 } from "react-icons/fi";
 import {
   FaLinkedinIn,
-  FaGithub,
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
@@ -186,36 +185,34 @@ export default function Footer() {
             <div className="mt-6 flex items-center gap-3">
 
               <a
-                href="#"
-                className="h-9 w-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition"
+                href="https://www.linkedin.com/in/mitesh-parmar-602601184/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="h-9 w-9 rounded-lg bg-black border border-black flex items-center justify-center hover:bg-gray-800 transition"
                 aria-label="LinkedIn"
               >
-                <FaLinkedinIn />
+                <FaLinkedinIn  />
               </a>
 
-              <a
-                href="#"
-                className="h-9 w-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition"
-                aria-label="GitHub"
-              >
-                <FaGithub />
-              </a>
+             
 
-              <a
+              {/* <a
                 href="#"
                 className="h-9 w-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition"
                 aria-label="Twitter"
               >
                 <FaTwitter />
-              </a>
+              </a> */}
 
-              <a
-                href="#"
-                className="h-9 w-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition"
-                aria-label="WhatsApp"
-              >
-                <FaWhatsapp />
-              </a>
+             <a
+  href="https://wa.me/919574927922?text=Hi%2C%20I%20need%20Neto%20developer"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="h-9 w-9 rounded-lg bg-black border border-black flex items-center justify-center hover:bg-gray-800 transition"
+  aria-label="WhatsApp"
+>
+  <FaWhatsapp className="text-white" />
+</a>
 
             </div>
           </address>

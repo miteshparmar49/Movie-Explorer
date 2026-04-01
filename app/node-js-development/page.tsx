@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Hire Node.js Developer Australia | Backend Expert",
   description:
     "Hire expert Node.js developers for scalable backend applications, APIs, and high-performance systems.",
+
   keywords: [
     "node js developer",
     "hire node developer",
@@ -13,7 +14,31 @@ export const metadata: Metadata = {
     "node js api development",
     "node js expert",
   ],
+
+  // ✅ VERY IMPORTANT (Canonical Fix)
+  alternates: {
+    canonical: "https://www.mvpinfotech.in/node-js-development",
+  },
+
+  // ✅ Open Graph (for social + SEO boost)
+  openGraph: {
+    title: "Hire Node.js Developer Australia",
+    description:
+      "Expert Node.js developers for scalable backend systems and APIs.",
+    url: "https://www.mvpinfotech.in/node-js-development",
+    siteName: "MVP Infotech",
+    type: "website",
+  },
+
+  // ✅ Twitter SEO
+  twitter: {
+    card: "summary_large_image",
+    title: "Hire Node.js Developer Australia",
+    description:
+      "Hire expert Node.js developers for scalable backend applications.",
+  },
 };
+
 
 export default function NodeServicePage() {
   return (

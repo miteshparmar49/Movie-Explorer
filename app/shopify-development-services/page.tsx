@@ -5,16 +5,117 @@ import Allinone from "@/components/allinobe";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.mvpinfotech.in"),
+
   title:
     "Shopify Development Services Worldwide | Shopify Experts & Ecommerce Solutions",
+
   description:
-    "We provide Shopify development services worldwide including Australia, USA, UK, Canada, UAE and India.",
+    "Hire expert Shopify developers for custom store development, theme customization, app integration, and performance optimization worldwide.",
+
+  keywords: [
+    "shopify developer",
+    "hire shopify developer",
+    "shopify development services",
+    "shopify expert",
+    "shopify development company",
+    "shopify ecommerce developer",
+
+    // 🌍 Country targeting
+    "shopify developer australia",
+    "shopify developer usa",
+    "shopify developer uk",
+    "shopify developer canada",
+    "shopify developer uae",
+    "shopify developer india",
+    "hire shopify developer australia",
+    "hire shopify expert worldwide",
+
+    // 🛠 Services
+    "shopify store development",
+    "shopify theme customization",
+    "shopify app integration",
+    "shopify custom development",
+    "shopify speed optimization",
+    "shopify bug fixing",
+    "shopify maintenance services",
+    "shopify support services",
+
+    // 💰 Business intent
+    "hire shopify freelancer",
+    "shopify agency worldwide",
+    "shopify development agency",
+    "shopify experts for ecommerce",
+    "shopify b2b ecommerce development",
+    "shopify plus development",
+    "shopify migration services",
+    "woocommerce to shopify migration",
+    "magento to shopify migration",
+
+    // 🔥 Advanced
+    "shopify seo optimization",
+    "shopify conversion optimization",
+    "shopify performance optimization",
+    "shopify custom checkout",
+    "shopify liquid expert",
+    "shopify headless commerce",
+    "shopify api integration",
+    "shopify private app development",
+  ],
+
+  alternates: {
+    canonical: "https://www.mvpinfotech.in/shopify-development-services",
+  },
+
+  openGraph: {
+    title:
+      "Shopify Development Services Worldwide | Shopify Experts",
+    description:
+      "Expert Shopify developers for custom ecommerce solutions, integrations, and high-performance stores.",
+    url: "https://www.mvpinfotech.in/shopify-development-services",
+    siteName: "MVP InfoTech",
+    type: "website",
+    images: [
+      {
+        url: "https://www.mvpinfotech.in/shopify-banner.png",
+        width: 1200,
+        height: 630,
+        alt: "Shopify Development Services Worldwide",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Shopify Development Services | MVP InfoTech",
+    description:
+      "Hire Shopify experts for scalable ecommerce development and optimization.",
+    images: ["https://www.mvpinfotech.in/shopify-banner.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function ShopifyServicePage() {
   return (
     <main className="">
-
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Service",
+      name: "Shopify Development Services",
+      provider: {
+        "@type": "Organization",
+        name: "MVP Infotech",
+        url: "https://www.mvpinfotech.in",
+      },
+    }),
+  }}
+/>
       {/* HERO */}
       <section className="relative py-24">
        <div className="absolute inset-0 -z-10 bg-gradient-to-br from-[#95BF47] via-[#22c55e] to-[#1e3a8a] opacity-90" />
