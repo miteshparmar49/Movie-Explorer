@@ -11,13 +11,43 @@ export const metadata: Metadata = {
   description:
     "Professional WordPress development services including custom website design, Elementor development, WooCommerce store setup, speed optimisation and SEO-friendly websites.",
 
-  keywords: [
-    "WordPress developer",
-    "Hire WordPress developer",
-    "WordPress website design",
-    "Elementor developer",
-    "WooCommerce development",
-  ],
+ keywords: [
+  "WordPress developer",
+  "Hire WordPress developer",
+  "WordPress website design",
+  "Elementor developer",
+  "WooCommerce development",
+
+  // 🌍 Country targeting
+  "wordpress developer australia",
+  "wordpress developer usa",
+  "wordpress developer uk",
+  "wordpress developer india",
+  "hire wordpress developer worldwide",
+
+  // 🛠 Services
+  "wordpress custom development",
+  "wordpress theme customization",
+  "wordpress plugin development",
+  "wordpress speed optimization",
+  "wordpress bug fixing",
+  "wordpress maintenance services",
+  "wordpress support services",
+  "wordpress migration services",
+
+  // 💰 Business intent
+  "hire wordpress freelancer",
+  "wordpress development agency",
+  "woocommerce developer",
+  "woocommerce customization",
+  "woocommerce store development",
+
+  // 🔥 Advanced
+  "wordpress seo optimization",
+  "wordpress performance optimization",
+  "elementor website design expert",
+  "wordpress ecommerce development",
+],
 
   alternates: {
     canonical: "https://www.mvpinfotech.in/wordpress-development-services",

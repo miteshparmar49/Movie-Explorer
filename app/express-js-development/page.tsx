@@ -3,17 +3,95 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Allinone from "@/components/allinobe";
 
+
+
 export const metadata: Metadata = {
-  title: "Hire Express.js Developer Australia | Express Backend Expert",
+  metadataBase: new URL("https://www.mvpinfotech.in"),
+
+  title:
+    "Hire Express.js Developer Australia | Express Backend Expert & API Development",
+
   description:
-    "Hire expert Express.js developers for fast, secure and scalable backend applications and APIs.",
+    "Hire expert Express.js developers for fast, secure and scalable backend applications, REST APIs and high-performance Node.js systems worldwide.",
+
   keywords: [
     "express js developer",
     "hire express developer",
+    "express backend developer",
     "node express backend",
     "express api development",
     "express js services",
+
+    // 🌍 Country targeting
+    "express js developer australia",
+    "express js developer usa",
+    "express js developer uk",
+    "hire express developer australia",
+    "hire express js developer worldwide",
+
+    // 🛠 Services
+    "express js api development",
+    "express rest api development",
+    "express backend development services",
+    "node js express development",
+    "express js microservices",
+    "express js performance optimization",
+    "express js bug fixing",
+    "express js maintenance services",
+
+    // 💰 Business intent
+    "hire express js freelancer",
+    "express js development agency",
+    "backend development agency",
+    "node js backend expert",
+    "hire backend developer express",
+
+    // 🔥 Advanced
+    "express js scalable architecture",
+    "express js server optimization",
+    "node express api integration",
+    "express js authentication system",
+    "express js middleware development",
+    "express js high performance backend",
   ],
+
+  // ✅ Canonical
+  alternates: {
+    canonical: "https://www.mvpinfotech.in/express-js-development",
+  },
+
+  // ✅ Open Graph
+  openGraph: {
+    title:
+      "Hire Express.js Developer Australia | Backend & API Experts",
+    description:
+      "Expert Express.js developers for scalable backend systems, APIs, and high-performance applications.",
+    url: "https://www.mvpinfotech.in/express-js-development",
+    siteName: "MVP InfoTech",
+    type: "website",
+    images: [
+      {
+        url: "https://www.mvpinfotech.in/Express.png",
+        width: 1200,
+        height: 630,
+        alt: "Express.js Development Services",
+      },
+    ],
+  },
+
+  // ✅ Twitter
+  twitter: {
+    card: "summary_large_image",
+    title: "Express.js Developer | MVP InfoTech",
+    description:
+      "Hire expert Express.js developers for fast and scalable backend development.",
+    images: ["https://www.mvpinfotech.in/Express.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function ExpressServicePage() {

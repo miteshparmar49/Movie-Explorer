@@ -12,14 +12,47 @@ export const metadata: Metadata = {
   description:
     "Professional SEO services including technical SEO, on-page optimization, link building, local SEO and Google Analytics implementation to improve rankings and organic traffic.",
 
-  keywords: [
-    "SEO services",
-    "SEO specialist",
-    "Technical SEO",
-    "Link building services",
-    "Local SEO expert",
-    "Hire SEO expert",
-  ],
+keywords: [
+  "SEO services",
+  "SEO specialist",
+  "Technical SEO",
+  "Link building services",
+  "Local SEO expert",
+  "Hire SEO expert",
+
+  // 🌍 Country targeting
+  "seo services australia",
+  "seo expert australia",
+  "seo services usa",
+  "seo expert uk",
+  "hire seo expert worldwide",
+
+  // 🛠 Services
+  "on page seo services",
+  "off page seo services",
+  "technical seo audit",
+  "seo audit services",
+  "keyword research services",
+  "website seo optimization",
+  "seo content optimization",
+  "ecommerce seo services",
+
+  // 💰 Business intent
+  "seo agency",
+  "seo company",
+  "hire seo freelancer",
+  "best seo services",
+  "affordable seo services",
+  "increase website traffic seo",
+  "google ranking improvement",
+
+  // 🔥 Advanced
+  "core web vitals optimization",
+  "seo performance optimization",
+  "seo strategy services",
+  "google search console optimization",
+  "seo backlink strategy",
+],
 
   alternates: {
     canonical: "https://www.mvpinfotech.in/seo-services",

@@ -3,17 +3,93 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Allinone from "@/components/allinobe";
 
+
+
 export const metadata: Metadata = {
-  title: "Hire Vue.js Developer Australia | Vue Expert",
+  metadataBase: new URL("https://www.mvpinfotech.in"),
+
+  title:
+    "Hire Vue.js Developer Australia | Vue.js Expert & Frontend Specialist",
+
   description:
-    "Hire expert Vue.js developers for fast, scalable and modern web applications. Vue development, UI, API integration and performance optimization.",
+    "Hire expert Vue.js developers for fast, scalable and modern web applications. Vue development, UI design, API integration and performance optimization worldwide.",
+
   keywords: [
     "vue js developer",
     "hire vue developer",
     "vue js expert",
     "vue frontend developer",
     "vue js development services",
+
+    // 🌍 Country targeting
+    "vue js developer australia",
+    "vue js developer usa",
+    "vue js developer uk",
+    "hire vue js developer worldwide",
+    "frontend developer vue js australia",
+
+    // 🛠 Services
+    "vue js application development",
+    "vue js ui development",
+    "vue js frontend development",
+    "vue js api integration",
+    "vue js single page application",
+    "vue js performance optimization",
+    "vue js bug fixing",
+    "vue js maintenance services",
+
+    // 💰 Business intent
+    "hire vue js freelancer",
+    "vue js development agency",
+    "frontend development agency",
+    "vue js expert for hire",
+    "hire frontend developer vue",
+
+    // 🔥 Advanced
+    "vue js spa development",
+    "vue js nuxt development",
+    "vue js scalable architecture",
+    "vue js component development",
+    "vue js optimization services",
   ],
+
+  // ✅ Canonical
+  alternates: {
+    canonical: "https://www.mvpinfotech.in/vue-js-development",
+  },
+
+  // ✅ Open Graph
+  openGraph: {
+    title:
+      "Hire Vue.js Developer Australia | Vue Frontend Experts",
+    description:
+      "Expert Vue.js developers for scalable frontend applications, UI development and performance optimization.",
+    url: "https://www.mvpinfotech.in/vue-js-development",
+    siteName: "MVP InfoTech",
+    type: "website",
+    images: [
+      {
+        url: "https://www.mvpinfotech.in/vuejs.png",
+        width: 1200,
+        height: 630,
+        alt: "Vue.js Development Services",
+      },
+    ],
+  },
+
+  // ✅ Twitter
+  twitter: {
+    card: "summary_large_image",
+    title: "Vue.js Developer | MVP InfoTech",
+    description:
+      "Hire expert Vue.js developers for modern frontend applications.",
+    images: ["https://www.mvpinfotech.in/vuejs.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function VueServicePage() {

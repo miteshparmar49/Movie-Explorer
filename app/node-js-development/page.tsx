@@ -7,13 +7,44 @@ export const metadata: Metadata = {
   description:
     "Hire expert Node.js developers for scalable backend applications, APIs, and high-performance systems.",
 
-  keywords: [
-    "node js developer",
-    "hire node developer",
-    "backend developer",
-    "node js api development",
-    "node js expert",
-  ],
+ keywords: [
+  "node js developer",
+  "hire node developer",
+  "backend developer",
+  "node js api development",
+  "node js expert",
+
+  // 🌍 Country targeting
+  "node js developer australia",
+  "node js developer usa",
+  "node js developer uk",
+  "node js developer canada",
+  "hire node js developer worldwide",
+
+  // 🛠 Services
+  "node js backend development",
+  "node js api development services",
+  "node js microservices development",
+  "node js rest api development",
+  "node js performance optimization",
+  "node js bug fixing",
+  "node js maintenance services",
+  "node js support services",
+
+  // 💰 Business intent
+  "hire node js freelancer",
+  "node js development agency",
+  "backend development agency",
+  "node js expert for hire",
+  "hire backend developer node js",
+
+  // 🔥 Advanced
+  "node js scalable architecture",
+  "node js server optimization",
+  "node js api integration",
+  "node js authentication system",
+  "node js high performance backend",
+],
 
   // ✅ VERY IMPORTANT (Canonical Fix)
   alternates: {

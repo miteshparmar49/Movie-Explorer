@@ -3,17 +3,93 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Allinone from "@/components/allinobe";
 
+
+
 export const metadata: Metadata = {
-  title: "Hire React.js Developer Australia | React Expert",
+  metadataBase: new URL("https://www.mvpinfotech.in"),
+
+  title:
+    "Hire React.js Developer Australia | React Expert & Frontend Specialist",
+
   description:
-    "Hire expert React.js developers for fast, scalable web apps. Custom React development, UI, API integration and performance optimization.",
+    "Hire expert React.js developers for fast, scalable web applications. Custom React development, UI design, API integration and performance optimization worldwide.",
+
   keywords: [
     "react js developer",
     "hire react developer",
     "react frontend developer",
     "react js expert",
     "react development services",
+
+    // 🌍 Country targeting
+    "react js developer australia",
+    "react js developer usa",
+    "react js developer uk",
+    "hire react js developer worldwide",
+    "frontend developer react australia",
+
+    // 🛠 Services
+    "react js web development",
+    "react js frontend development",
+    "react js ui development",
+    "react js api integration",
+    "react js single page application",
+    "react js performance optimization",
+    "react js bug fixing",
+    "react js maintenance services",
+
+    // 💰 Business intent
+    "hire react js freelancer",
+    "react js development agency",
+    "frontend development agency",
+    "react js expert for hire",
+    "hire frontend developer react",
+
+    // 🔥 Advanced
+    "react js spa development",
+    "react js next js development",
+    "react js scalable architecture",
+    "react js component development",
+    "react js optimization services",
   ],
+
+  // ✅ Canonical
+  alternates: {
+    canonical: "https://www.mvpinfotech.in/react-js-development",
+  },
+
+  // ✅ Open Graph
+  openGraph: {
+    title:
+      "Hire React.js Developer Australia | React Frontend Experts",
+    description:
+      "Expert React.js developers for scalable frontend applications, UI development and performance optimization.",
+    url: "https://www.mvpinfotech.in/react-js-development",
+    siteName: "MVP InfoTech",
+    type: "website",
+    images: [
+      {
+        url: "https://www.mvpinfotech.in/react.png",
+        width: 1200,
+        height: 630,
+        alt: "React.js Development Services",
+      },
+    ],
+  },
+
+  // ✅ Twitter
+  twitter: {
+    card: "summary_large_image",
+    title: "React.js Developer | MVP InfoTech",
+    description:
+      "Hire expert React.js developers for modern frontend applications.",
+    images: ["https://www.mvpinfotech.in/react.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function ReactServicePage() {

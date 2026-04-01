@@ -3,17 +3,95 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Allinone from "@/components/allinobe";
 
+
+
 export const metadata: Metadata = {
-  title: "Amazon PPC Expert Australia | Amazon Ads Specialist",
+  metadataBase: new URL("https://www.mvpinfotech.in"),
+
+  title:
+    "Amazon PPC Expert Australia | Amazon Ads Specialist & Campaign Management",
+
   description:
-    "Hire an Amazon PPC expert to increase sales, reduce ACoS and optimize your Amazon advertising campaigns.",
+    "Hire an Amazon PPC expert to increase sales, reduce ACoS and optimize Amazon advertising campaigns across Australia, USA, UK, and global marketplaces.",
+
   keywords: [
     "amazon ppc expert",
     "amazon ads specialist",
     "amazon advertising services",
     "amazon campaign management",
-    "amazon marketing",
+    "amazon marketing expert",
+
+    // 🌍 Country targeting
+    "amazon ppc expert australia",
+    "amazon ppc expert usa",
+    "amazon ppc expert uk",
+    "amazon ads specialist australia",
+    "hire amazon ppc expert worldwide",
+
+    // 🛠 Services
+    "amazon ppc management services",
+    "amazon ads optimization",
+    "amazon sponsored ads expert",
+    "amazon keyword research",
+    "amazon bid optimization",
+    "amazon campaign setup",
+    "amazon listing optimization",
+    "amazon ads audit",
+
+    // 💰 Business intent
+    "hire amazon ppc freelancer",
+    "amazon ppc agency",
+    "amazon ads agency worldwide",
+    "amazon growth expert",
+    "increase amazon sales",
+    "reduce acos amazon",
+
+    // 🔥 Advanced
+    "amazon dsp advertising",
+    "amazon sponsored products ads",
+    "amazon sponsored brands ads",
+    "amazon sponsored display ads",
+    "amazon ppc strategy",
+    "amazon conversion optimization",
   ],
+
+  // ✅ Canonical
+  alternates: {
+    canonical: "https://www.mvpinfotech.in/amazon-ppc-services",
+  },
+
+  // ✅ Open Graph
+  openGraph: {
+    title:
+      "Amazon PPC Expert Australia | Increase Sales & Reduce ACoS",
+    description:
+      "Expert Amazon PPC management to scale your sales, optimize campaigns and improve ROI.",
+    url: "https://www.mvpinfotech.in/amazon-ppc-services",
+    siteName: "MVP InfoTech",
+    type: "website",
+    images: [
+      {
+        url: "https://www.mvpinfotech.in/amazon.png",
+        width: 1200,
+        height: 630,
+        alt: "Amazon PPC Expert Services",
+      },
+    ],
+  },
+
+  // ✅ Twitter
+  twitter: {
+    card: "summary_large_image",
+    title: "Amazon PPC Expert | MVP InfoTech",
+    description:
+      "Scale your Amazon sales with expert PPC management and campaign optimization.",
+    images: ["https://www.mvpinfotech.in/amazon.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function AmazonPPCPage() {

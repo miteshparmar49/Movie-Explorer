@@ -12,13 +12,44 @@ export const metadata: Metadata = {
   description:
     "Professional BigCommerce development services including custom store setup, theme customization, API integrations and ecommerce performance optimisation.",
 
-  keywords: [
-    "BigCommerce developer",
-    "BigCommerce development services",
-    "Hire BigCommerce developer",
-    "BigCommerce store setup",
-    "BigCommerce theme customization",
-  ],
+ keywords: [
+  "BigCommerce developer",
+  "BigCommerce development services",
+  "Hire BigCommerce developer",
+  "BigCommerce store setup",
+  "BigCommerce theme customization",
+
+  // 🌍 Country targeting
+  "bigcommerce developer australia",
+  "bigcommerce developer usa",
+  "bigcommerce developer uk",
+  "bigcommerce developer canada",
+  "hire bigcommerce developer worldwide",
+
+  // 🛠 Services
+  "bigcommerce custom development",
+  "bigcommerce app integration",
+  "bigcommerce api development",
+  "bigcommerce checkout customization",
+  "bigcommerce speed optimization",
+  "bigcommerce bug fixing",
+  "bigcommerce maintenance services",
+  "bigcommerce support services",
+
+  // 💰 Business intent
+  "hire bigcommerce expert",
+  "bigcommerce development agency",
+  "bigcommerce ecommerce developer",
+  "bigcommerce freelancer",
+  "bigcommerce store developer",
+
+  // 🔥 Advanced
+  "bigcommerce headless commerce",
+  "bigcommerce stencil developer",
+  "bigcommerce seo optimization",
+  "bigcommerce performance optimization",
+  "bigcommerce b2b ecommerce development",
+],
 
   alternates: {
     canonical: "https://www.mvpinfotech.in/bigcommerce-development-services",

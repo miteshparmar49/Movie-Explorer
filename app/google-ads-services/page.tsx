@@ -3,17 +3,95 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Allinone from "@/components/allinobe";
 
+
+
 export const metadata: Metadata = {
-  title: "Google Ads Expert Australia | PPC & Search Ads Specialist",
+  metadataBase: new URL("https://www.mvpinfotech.in"),
+
+  title:
+    "Google Ads Expert Australia | PPC Specialist & High-Converting Campaigns",
+
   description:
-    "Hire Google Ads expert to run high-converting PPC campaigns. Increase leads, traffic and ROI with data-driven strategies.",
+    "Hire a Google Ads expert to run high-converting PPC campaigns. Increase leads, traffic and ROI with data-driven Google Ads strategies worldwide.",
+
   keywords: [
     "google ads expert",
     "ppc specialist",
     "google advertising services",
     "search ads expert",
     "google ppc management",
+
+    // 🌍 Country targeting
+    "google ads expert australia",
+    "google ads expert usa",
+    "google ads expert uk",
+    "google ads expert canada",
+    "hire google ads expert worldwide",
+
+    // 🛠 Services
+    "google ads campaign management",
+    "google ads optimization",
+    "google ads setup service",
+    "google ads audit",
+    "ppc campaign optimization",
+    "conversion tracking google ads",
+    "google ads keyword research",
+    "google ads bid optimization",
+
+    // 💰 Business intent
+    "hire google ads freelancer",
+    "google ads agency worldwide",
+    "ppc management services",
+    "increase leads with google ads",
+    "google ads lead generation",
+    "reduce cost per click google ads",
+
+    // 🔥 Advanced
+    "google search ads",
+    "google display ads",
+    "youtube ads expert",
+    "google remarketing ads",
+    "google performance max campaigns",
+    "google ads conversion optimization",
   ],
+
+  // ✅ Canonical
+  alternates: {
+    canonical: "/google-ads-services",
+  },
+
+  // ✅ Open Graph
+  openGraph: {
+    title:
+      "Google Ads Expert Australia | PPC & Lead Generation Specialist",
+    description:
+      "Expert Google Ads management to increase leads, traffic and ROI with high-performing PPC campaigns.",
+    url: "https://www.mvpinfotech.in/google-ads-services",
+    siteName: "MVP InfoTech",
+    type: "website",
+    images: [
+      {
+        url: "https://www.mvpinfotech.in/google.png",
+        width: 1200,
+        height: 630,
+        alt: "Google Ads Expert Services",
+      },
+    ],
+  },
+
+  // ✅ Twitter
+  twitter: {
+    card: "summary_large_image",
+    title: "Google Ads Expert | MVP InfoTech",
+    description:
+      "Scale your business with expert Google Ads campaigns and PPC optimization.",
+    images: ["https://www.mvpinfotech.in/google.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function GoogleAdsPage() {

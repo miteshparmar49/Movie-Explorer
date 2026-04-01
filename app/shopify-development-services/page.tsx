@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.mvpinfotech.in/shopify-banner.png",
+        url: "https://www.mvpinfotech.in/shopify.png",
         width: 1200,
         height: 630,
         alt: "Shopify Development Services Worldwide",
@@ -89,7 +89,7 @@ export const metadata: Metadata = {
     title: "Shopify Development Services | MVP InfoTech",
     description:
       "Hire Shopify experts for scalable ecommerce development and optimization.",
-    images: ["https://www.mvpinfotech.in/shopify-banner.png"],
+    images: ["https://www.mvpinfotech.in/shopify.png"],
   },
 
   robots: {
@@ -189,7 +189,7 @@ export default function ShopifyServicePage() {
       </section>
 
       {/* SERVICES */}
-      <section className="py-20 bg-[#0b1020] max-w-7xl mx-auto px-6">
+      <section className="py-20  max-w-7xl mx-auto px-6">
         <h2 className="text-3xl font-semibold text-center">
           Our Shopify Services
         </h2>

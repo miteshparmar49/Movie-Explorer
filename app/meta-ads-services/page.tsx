@@ -3,17 +3,96 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Allinone from "@/components/allinobe";
 
+
+
 export const metadata: Metadata = {
-  title: "Meta Ads Expert Australia | Facebook & Instagram Ads Specialist",
+  metadataBase: new URL("https://www.mvpinfotech.in"),
+
+  title:
+    "Meta Ads Expert Australia | Facebook & Instagram Ads Specialist",
+
   description:
-    "Hire Meta Ads expert to run high-converting Facebook & Instagram campaigns. Increase leads, sales and ROI.",
+    "Hire a Meta Ads expert to run high-converting Facebook & Instagram campaigns. Increase leads, sales and ROI with data-driven strategies worldwide.",
+
   keywords: [
     "meta ads expert",
     "facebook ads specialist",
     "instagram ads marketing",
     "social media advertising",
     "meta ads services",
+
+    // 🌍 Country targeting
+    "meta ads expert australia",
+    "facebook ads expert australia",
+    "instagram ads expert australia",
+    "meta ads expert usa",
+    "hire meta ads expert worldwide",
+
+    // 🛠 Services
+    "facebook ads campaign management",
+    "instagram ads campaign management",
+    "meta ads optimization",
+    "facebook ads setup service",
+    "instagram ads strategy",
+    "social media ads optimization",
+    "conversion tracking facebook ads",
+    "facebook ads audit",
+
+    // 💰 Business intent
+    "hire facebook ads freelancer",
+    "meta ads agency",
+    "facebook ads agency worldwide",
+    "instagram ads agency",
+    "social media marketing agency",
+    "increase leads with facebook ads",
+    "meta ads lead generation",
+
+    // 🔥 Advanced
+    "facebook retargeting ads",
+    "instagram retargeting ads",
+    "meta ads funnel strategy",
+    "facebook conversion ads",
+    "instagram sales ads",
+    "meta ads performance optimization",
   ],
+
+  // ✅ Canonical
+  alternates: {
+    canonical: "/meta-ads-services",
+  },
+
+  // ✅ Open Graph
+  openGraph: {
+    title:
+      "Meta Ads Expert Australia | Facebook & Instagram Ads Specialist",
+    description:
+      "Expert Meta Ads management to increase leads, sales and ROI with high-performing Facebook & Instagram campaigns.",
+    url: "https://www.mvpinfotech.in/meta-ads-services",
+    siteName: "MVP InfoTech",
+    type: "website",
+    images: [
+      {
+        url: "https://www.mvpinfotech.in/meta.png",
+        width: 1200,
+        height: 630,
+        alt: "Meta Ads Expert Services",
+      },
+    ],
+  },
+
+  // ✅ Twitter
+  twitter: {
+    card: "summary_large_image",
+    title: "Meta Ads Expert | MVP InfoTech",
+    description:
+      "Scale your business with expert Facebook & Instagram Ads campaigns.",
+    images: ["https://www.mvpinfotech.in/meta.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function MetaAdsPage() {

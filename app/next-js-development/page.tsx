@@ -3,17 +3,93 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Allinone from "@/components/allinobe";
 
+
+
 export const metadata: Metadata = {
-  title: "Hire Next.js Developer Australia | Next.js Expert",
+  metadataBase: new URL("https://www.mvpinfotech.in"),
+
+  title:
+    "Hire Next.js Developer Australia | Next.js Expert & SEO Web Specialist",
+
   description:
-    "Hire expert Next.js developers for fast, SEO-friendly and scalable web applications.",
+    "Hire expert Next.js developers for fast, SEO-friendly and scalable web applications. Custom development, SSR, API integration and performance optimization worldwide.",
+
   keywords: [
     "next js developer",
     "hire nextjs developer",
     "next js expert",
     "seo web development",
     "next js services",
+
+    // 🌍 Country targeting
+    "next js developer australia",
+    "next js developer usa",
+    "next js developer uk",
+    "hire next js developer worldwide",
+    "seo developer next js australia",
+
+    // 🛠 Services
+    "next js web development",
+    "next js frontend development",
+    "next js ssr development",
+    "next js api routes development",
+    "next js performance optimization",
+    "next js bug fixing",
+    "next js maintenance services",
+    "next js support services",
+
+    // 💰 Business intent
+    "hire next js freelancer",
+    "next js development agency",
+    "frontend development agency",
+    "next js expert for hire",
+    "hire frontend developer next js",
+
+    // 🔥 Advanced
+    "next js server side rendering",
+    "next js static site generation",
+    "next js app router development",
+    "next js seo optimization",
+    "next js scalable architecture",
   ],
+
+  // ✅ Canonical
+  alternates: {
+    canonical: "https://www.mvpinfotech.in/next-js-development",
+  },
+
+  // ✅ Open Graph
+  openGraph: {
+    title:
+      "Hire Next.js Developer Australia | SEO & Performance Experts",
+    description:
+      "Expert Next.js developers for scalable, SEO-friendly and high-performance web applications.",
+    url: "https://www.mvpinfotech.in/next-js-development",
+    siteName: "MVP InfoTech",
+    type: "website",
+    images: [
+      {
+        url: "https://www.mvpinfotech.in/next.png",
+        width: 1200,
+        height: 630,
+        alt: "Next.js Development Services",
+      },
+    ],
+  },
+
+  // ✅ Twitter
+  twitter: {
+    card: "summary_large_image",
+    title: "Next.js Developer | MVP InfoTech",
+    description:
+      "Hire expert Next.js developers for SEO-friendly web applications.",
+    images: ["https://www.mvpinfotech.in/next.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function NextjsServicePage() {
