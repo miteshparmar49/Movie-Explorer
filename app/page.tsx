@@ -53,12 +53,13 @@ export default function Home() {
           {/* Hero Image */}
           <div className="hidden md:block aspect-video rounded-xl overflow-hidden border border-white/10 relative">
             <Image
-              src="/hero.jpg" // replace with your actual image
+              src="/hero.webp"
               alt="Full-Stack Ecommerce Developer working on Neto, Maropost, Shopify & BigCommerce platforms"
               fill
               className="object-cover"
-              priority={true} // loads immediately for SEO
+              quality={70}
               sizes="(max-width: 768px) 100vw, 50vw"
+              priority
             />
           </div>
 
