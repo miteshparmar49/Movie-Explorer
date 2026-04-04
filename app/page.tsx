@@ -7,6 +7,9 @@ import ContactUs from "@/components/contactus";
 import AboutUs from "@/components/About";
 import Link from "next/link";
 import ClientReviews from "@/components/ClientReviews";
+import StatsSection from "@/components/StatsSection";
+import ClientLogosSlider from "@/components/ClientLogosSlider";
+
 
 export default function Home() {
   return (
@@ -65,7 +68,8 @@ export default function Home() {
 
         </div>
       </section>
-
+<StatsSection />  
+ {/* <ClientLogosSlider /> */}
       {/* SERVICES */}
     
     <AboutUs/>
