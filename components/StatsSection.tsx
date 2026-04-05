@@ -20,16 +20,14 @@ const stats = [
 
 export default function StatsSection() {
   return (
-    <section className="pb-24">
+    <section className="mb-24 border border-white/10 bg-white/5 backdrop-blur-xl">
       <div className="max-w-5xl mx-auto px-6">
 
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12">
-          Trusted by Businesses Worldwide
-        </h2>
+       
 
         {/* Container */}
-        <div className="relative rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl">
+        <div className="relative">
 
           <div className="grid grid-cols-1 md:grid-cols-3 text-center">
 
@@ -40,9 +38,7 @@ export default function StatsSection() {
               >
 
                 {/* Icon */}
-                <div className="text-lg mb-2 opacity-70">
-                  {item.icon}
-                </div>
+                
 
                 {/* Number */}
                 <h3 className="text-5xl font-semibold text-white">
