@@ -9,6 +9,7 @@ import Link from "next/link";
 import ClientReviews from "@/components/ClientReviews";
 import StatsSection from "@/components/StatsSection";
 import ClientLogosSlider from "@/components/ClientLogosSlider";
+import BlogSlider from "./blog/page";
 
 
 export default function Home() {
@@ -81,6 +82,7 @@ export default function Home() {
       {/* PORTFOLIO */}
       <LatestProjects/>
 <ClientReviews/>
+<BlogSlider/>
       {/* CONTACT */}
         <ContactUs />
     </>
