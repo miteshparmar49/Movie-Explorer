@@ -77,6 +77,43 @@ export const metadata: Metadata = {
     follow: true,
   },
 };
+const faqs = [
+  {
+    question: "What is Neto (Maropost Commerce Cloud)?",
+    answer:
+      "Neto, now known as Maropost Commerce Cloud, is an all-in-one eCommerce platform that combines store management, inventory, POS, and marketplace integrations.",
+  },
+  {
+    question: "Why should I migrate from Neto to Shopify?",
+    answer:
+      "Shopify offers better scalability, ease of use, faster performance, and a large app ecosystem for business growth.",
+  },
+  {
+    question: "Will my data be safe during migration?",
+    answer:
+      "Yes, we ensure secure migration of products, customers, orders, and SEO data without any loss.",
+  },
+  {
+    question: "Do you migrate SEO data from Neto?",
+    answer:
+      "Yes, we migrate URLs, meta titles, descriptions and set proper redirects to maintain rankings.",
+  },
+  {
+    question: "How long does migration take?",
+    answer:
+      "Small stores take 3–7 days, while large stores may take 1–2 weeks depending on complexity.",
+  },
+  {
+    question: "Will my store have downtime?",
+    answer:
+      "No, your store remains live during migration. We switch only after testing is complete.",
+  },
+  {
+    question: "Do you provide post-migration support?",
+    answer:
+      "Yes, we offer ongoing support, maintenance, and optimization services.",
+  },
+];
 
 export default function NetoServicePage() {
   return (
@@ -321,6 +358,33 @@ export default function NetoServicePage() {
       With over 10 years of experience, I bring a strong combination of technical skills and ecommerce strategy. Whether you need a Maropost support Australia expert or a Neto ecommerce developer Australia for a new project, I provide reliable and result-driven services.
     </p>
 
+      
+
+<h2 className="text-2xl font-semibold mt-10">Hire Expert Neto Developer for Custom eCommerce Solutions</h2>
+<p className="mt-4 text-white/70">
+Looking to hire a professional <strong>Neto developer</strong> in Australia? We are a leading <strong>Neto development company</strong> offering scalable and high-performance <strong>Neto ecommerce solutions</strong>. Our team of <strong>Neto experts</strong> specializes in building custom features, optimizing store performance, and delivering end-to-end <strong>Neto development services</strong> tailored to your business needs.
+</p>
+
+<h2 className="text-2xl font-semibold mt-10">Maropost Commerce Cloud Development & API Integration</h2>
+<p className="mt-4 text-white/70">
+As experienced <strong>Maropost developers</strong>, we provide advanced <strong>Maropost Commerce Cloud</strong> development including powerful <strong>Neto API</strong> integrations and automation solutions. Whether you need custom workflows or third-party integrations, our <strong>Maropost experts</strong> ensure seamless functionality and improved efficiency for your eCommerce store.
+</p>
+
+<h2 className="text-2xl font-semibold mt-10">Neto eCommerce SEO & PPC Services for Growth</h2>
+<p className="mt-4 text-white/70">
+We offer result-driven <strong>Neto ecommerce SEO</strong> and <strong>Maropost Commerce Cloud PPC</strong> services to help your business rank higher and generate quality traffic. Our targeted strategies, including <strong>Neto SEO Melbourne</strong>, improve visibility, conversions, and long-term growth for your online store.
+</p>
+
+<h2 className="text-2xl font-semibold mt-10">Migration & Managed Services for Neto Stores</h2>
+<p className="mt-4 text-white/70">
+Planning to migrate your store? We provide smooth migration services such as <strong>Maropost Commerce Cloud to BigCommerce</strong> along with reliable <strong>Neto managed services</strong>. From maintenance to performance optimization, we ensure your eCommerce platform runs efficiently at all times.
+</p>
+
+<h2 className="text-2xl font-semibold mt-10">Web Designing & Complete eCommerce Development</h2>
+<p className="mt-4 text-white/70">
+Our team also offers professional <strong>web designing</strong> services to create visually appealing and user-friendly online stores. As a trusted <strong>Maropost Commerce Cloud agency</strong>, we combine design, development, and marketing to deliver complete eCommerce solutions that drive results.
+</p>      
+
     <h2 className="text-2xl font-semibold mt-10">
       Start Your Neto Ecommerce Project Today
     </h2>
@@ -365,3 +429,4 @@ export default function NetoServicePage() {
     </main>
   );
 }
+

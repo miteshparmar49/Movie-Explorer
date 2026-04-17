@@ -60,7 +60,7 @@ export default function Home() {
               src="/hero.jpg"
               alt="Full-Stack Ecommerce Developer working on Neto, Maropost, Shopify & BigCommerce platforms"
               fill
-              className="object-cover"
+              className=""
               quality={70}
               sizes="(max-width: 768px) 100vw, 50vw"
               priority
