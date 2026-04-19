@@ -129,71 +129,203 @@ export async function generateMetadata({
   };
 }
 
-export default async function Page({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
+// export default async function Page({
+//   params,
+// }: {
+//   params: Promise<{ slug: string }>;
+// }) {
+//   const { slug } = await params;
 
-  const blog = blogs.find((b) => b.slug === slug);
+//   const blog = blogs.find((b) => b.slug === slug);
+
+//   if (!blog) return notFound();
+
+//   return (
+//     <main className="relative">
+
+//       {/* HERO */}
+//       <section className="py-20 border-b border-white/10">
+//         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+
+//           {/* Text */}
+//           <div>
+//             <h1 className="text-4xl md:text-5xl font-bold">
+//               {blog.title}
+//             </h1>
+
+//             <p className="mt-4 text-white/70 text-lg">
+//               {blog.description}
+//             </p>
+
+//             <div className="mt-6 text-sm text-gray-400">
+//               {blog.date} • {blog.readTime}
+//             </div>
+
+//             <div className="mt-6">
+//               <Link
+//                 href="/contact"
+//                 className="border border-white/20 px-6 py-3 rounded-md"
+//               >
+//                 Get Free Consultation
+//               </Link>
+//             </div>
+//           </div>
+
+//           {/* Image */}
+//           <div className="relative aspect-video rounded-xl overflow-hidden border border-white/10">
+//             <Image
+//               src={blog.image}
+//               alt={blog.title}
+//               fill
+//               priority
+//             />
+//           </div>
+
+//         </div>
+//       </section>
+
+//       {/* BLOG CONTENT */}
+//       <section className="py-16">
+//         <div className="max-w-4xl mx-auto px-4 blog-content">
+
+//           <div
+//             className="prose prose-invert max-w-none"
+//             dangerouslySetInnerHTML={{ __html: blog.content }}
+//           />
+
+//         </div>
+//       </section>
+
+//     </main>
+//   );
+// }
+
+export default async function Page({
+   params,
+ }: {
+   params: Promise<{ slug: string }>;
+ }) {
+   const { slug } = await params;
+
+   const blog = blogs.find((b) => b.slug === slug);
 
   if (!blog) return notFound();
 
   return (
-    <main className="relative">
+    <main className="bg-[#0b1020] text-white">
 
-      {/* HERO */}
-      <section className="py-20 border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      {/* 🔹 Breadcrumb */}
+      <div className="max-w-7xl mx-auto px-6 pt-6 text-sm text-gray-400">
+        <Link href="/">Home</Link> / <Link href="/blog">Blog</Link> / {blog.title}
+      </div>
 
-          {/* Text */}
-          <div>
-            <h1 className="text-4xl md:text-5xl font-bold">
-              {blog.title}
-            </h1>
+      {/* 🔹 HERO */}
+      <section className="py-12 max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
 
-            <p className="mt-4 text-white/70 text-lg">
-              {blog.description}
-            </p>
+        <div>
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+            {blog.title}
+          </h1>
 
-            <div className="mt-6 text-sm text-gray-400">
-              {blog.date} • {blog.readTime}
-            </div>
+          <p className="mt-4 text-gray-400">
+            {blog.description}
+          </p>
 
-            <div className="mt-6">
-              <Link
-                href="/contact"
-                className="border border-white/20 px-6 py-3 rounded-md"
-              >
-                Get Free Consultation
-              </Link>
-            </div>
+          <div className="mt-4 text-sm text-gray-500">
+            {blog.date} • {blog.readTime}
           </div>
 
-          {/* Image */}
-          <div className="relative aspect-video rounded-xl overflow-hidden border border-white/10">
-            <Image
-              src={blog.image}
-              alt={blog.title}
-              fill
-              priority
-            />
-          </div>
-
+          <Link
+            href="/contact"
+            className="inline-block mt-6 border border-white/20 px-6 py-3 rounded-md"
+          >
+            Get Free Consultation
+          </Link>
         </div>
+
+        {/* Image */}
+        <div className="relative aspect-video rounded-xl overflow-hidden border border-white/10">
+          <Image src={blog.image} alt={blog.title} fill className="" />
+        </div>
+
       </section>
 
-      {/* BLOG CONTENT */}
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4 blog-content">
+      {/* 🔹 CONTENT + SIDEBAR */}
+      <section className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-10">
+
+        {/* 📝 MAIN CONTENT */}
+        <div className="md:col-span-2">
 
           <div
-            className="prose prose-invert max-w-none"
+            className="
+              text-white leading-7 space-y-4
+
+              [&_h2]:text-3xl [&_h2]:font-semibold
+              [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:mt-6
+              [&_p]:text-gray-300
+              [&_strong]:text-white
+              [&_a]:text-blue-400
+            "
             dangerouslySetInnerHTML={{ __html: blog.content }}
           />
 
+          {/* 🚀 CTA */}
+          <div className="mt-12 p-6 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border border-white/10 rounded-xl">
+            <h3 className="text-xl font-semibold">
+              🚀 Want to rank your Shopify store?
+            </h3>
+            <p className="text-gray-400 mt-2">
+              We help increase traffic, rankings & conversions.
+            </p>
+            <Link
+              href="/contact"
+              className="inline-block mt-4 bg-white text-black px-6 py-2 rounded-md"
+            >
+              Get Free Consultation
+            </Link>
+          </div>
+
         </div>
+
+        {/* 📌 SIDEBAR */}
+        <aside className="space-y-6">
+
+          {/* 🔥 TOC */}
+          <div className="top-20 bg-white/5 p-5 rounded-xl border border-white/10">
+            <h4 className="font-semibold mb-3">Table of Contents</h4>
+            <ul className="text-sm text-gray-400 space-y-2">
+              <li>Keyword Research</li>
+              <li>Product Optimization</li>
+              <li>Site Speed</li>
+              <li>Backlinks</li>
+            </ul>
+          </div>
+
+          {/* 👤 Author */}
+          <div className="bg-white/5 p-5 rounded-xl border border-white/10">
+            <h4 className="font-semibold">About Author</h4>
+            <p className="text-gray-400 text-sm mt-2">
+              MVP Infotech – Shopify & SEO Experts helping brands grow.
+            </p>
+          </div>
+
+          {/* 🔗 Related */}
+          <div className="bg-white/5 p-5 rounded-xl border border-white/10">
+            <h4 className="font-semibold mb-4">Related Blogs</h4>
+
+            {blogs.slice(0, 3).map((item) => (
+              <Link
+                key={item.slug}
+                href={`/blog/${item.slug}`}
+                className="block text-sm text-gray-300 hover:text-white mb-2"
+              >
+                → {item.title}
+              </Link>
+            ))}
+          </div>
+
+        </aside>
+
       </section>
 
     </main>
