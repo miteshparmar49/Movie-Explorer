@@ -149,7 +149,9 @@ export const metadata: Metadata = {
 export default function BigCommerceServicePage() {
   return (
     <main className="relative overflow-hidden">
-
+<div className="max-w-7xl mx-auto px-6 py-3 text-sm text-gray-400 inset-0 -z-10 bg-gradient-to-r from-[#0b1020] via-[#2b1e4f] to-[#0b1020]">
+        <Link href="/">Home</Link> / bigcommerce-development-services
+      </div>
       {/* HERO */}
       <section className="relative py-24">
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#0b1020] via-[#1e40af] to-[#0b1020]" />
@@ -249,7 +251,7 @@ export default function BigCommerceServicePage() {
       {/* SEO CONTENT */}
       {/* SEO CONTENT */}
 <section className="py-24 border-t border-white/10">
-  <div className="mx-auto max-w-4xl px-6">
+  <div className="mx-auto max-w-7xl px-6">
 
     <h2 className="text-3xl font-semibold">
       Professional BigCommerce Ecommerce Development Services

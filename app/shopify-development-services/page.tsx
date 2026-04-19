@@ -116,6 +116,10 @@ export default function ShopifyServicePage() {
     }),
   }}
 />
+
+ <div className="max-w-7xl mx-auto px-6 py-3 text-sm text-gray-400 inset-0 -z-10 bg-gradient-to-r from-[#0b1020] via-[#2b1e4f] to-[#0b1020]">
+        <Link href="/">Home</Link> / shopify-development-services
+      </div>
       {/* HERO */}
       <section className="relative py-24">
        <div className="absolute inset-0 -z-10 bg-gradient-to-br from-[#95BF47] via-[#22c55e] to-[#1e3a8a] opacity-90" />
@@ -257,7 +261,7 @@ export default function ShopifyServicePage() {
       </section>
 
       {/* SEO CONTENT */}
-     <section className="py-20 max-w-4xl mx-auto px-6">
+     <section className="py-20 max-w-7xl mx-auto px-6">
   
   <h2 className="text-3xl font-semibold">
     Shopify Ecommerce Development Services for Global Businesses
