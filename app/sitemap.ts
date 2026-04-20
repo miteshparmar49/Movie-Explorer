@@ -23,11 +23,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/amazon-ppc-services",
     "/meta-ads-services",
     "/google-ads-services",
-    "blog",
-    "blog/shopify-seo-tips",
-    "blog/neto-to-shopify",
-    "blog/ecommerce-trends",
-    "blog/cro-tips",
+    "/blog",
+    "/blog/shopify-seo-tips",
+    "/blog/neto-to-shopify",
+    "/blog/ecommerce-trends",
+    "/blog/cro-tips",
   ];
 
   return routes.map((route) => ({
