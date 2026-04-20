@@ -4,10 +4,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.mvpinfotech.in";
 
   const routes = [
-    "", // homepage
+    "/", // homepage
     "/about",
-    "/contact",
-    "/ourwork",
 
     // Services
     "/neto-by-maropost-development",
@@ -25,6 +23,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/amazon-ppc-services",
     "/meta-ads-services",
     "/google-ads-services",
+    "blog",
+    "blog/shopify-seo-tips",
+    "blog/neto-to-shopify",
+    "blog/ecommerce-trends",
+    "blog/cro-tips",
   ];
 
   return routes.map((route) => ({

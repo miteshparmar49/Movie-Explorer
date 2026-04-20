@@ -122,7 +122,7 @@ export const metadata: Metadata = {
     "bigcommerce development",
   ],
   alternates: {
-    canonical: "/about",
+    canonical: "https://www.mvpinfotech.in/about",
   },
   robots: {
     index: true,
