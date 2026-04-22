@@ -96,3 +96,6 @@ strong {
     color: #ffffff;
     font-weight: 600;
   }
+.blog-section section#about {
+    padding-bottom: 0;
+}
