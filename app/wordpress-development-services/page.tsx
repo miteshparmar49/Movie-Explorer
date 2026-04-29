@@ -2,7 +2,16 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Allinone from "@/components/allinobe";
-
+import {
+  FaShopify,
+  FaWordpress,
+  FaSearch,
+  FaGoogle,
+} from "react-icons/fa";
+import {
+  SiBigcommerce,
+  SiMeta,
+} from "react-icons/si";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.mvpinfotech.in"),
 
@@ -400,7 +409,88 @@ export default function WordPressServicePage() {
 
 <p className="mt-4 text-white/70">This ensures a seamless experience for users across all screen sizes.</p>
 
+<div className="mt-10">
+      <h2 className="text-2xl font-semibold mb-4">
+        Our Ecommerce Development Services
+      </h2>
 
+      <p className="text-gray-300 mb-6">
+        We offer a wide range of ecommerce development services:
+      </p>
+
+      <ul className="space-y-4">
+
+        {/* Neto */}
+        <li className="flex items-start gap-3">
+          <span className="text-blue-400 text-lg mt-1">⚙️</span>
+          <p className="text-gray-300">
+            <Link href="/neto-by-maropost-development" className="text-blue-400 hover:underline">
+              Neto by Maropost Development Services
+            </Link>{" "}
+            – Custom Neto ecommerce development, theme customisation and performance optimisation
+          </p>
+        </li>
+
+        {/* Shopify */}
+        <li className="flex items-start gap-3">
+          <FaShopify className="text-green-400 text-lg mt-1" />
+          <p className="text-gray-300">
+            <Link href="/shopify-development-services" className="text-blue-400 hover:underline">
+              Shopify Development
+            </Link>{" "}
+            – Custom store design and optimisation
+          </p>
+        </li>
+
+        {/* WordPress */}
+        
+
+        {/* BigCommerce */}
+        <li className="flex items-start gap-3">
+          <SiBigcommerce className="text-orange-400 text-lg mt-1" />
+          <p className="text-gray-300">
+            <Link href="/bigcommerce-development-services" className="text-blue-400 hover:underline">
+              BigCommerce Development
+            </Link>{" "}
+            – Scalable ecommerce platforms
+          </p>
+        </li>
+
+        {/* SEO */}
+        <li className="flex items-start gap-3">
+          <FaSearch className="text-yellow-400 text-lg mt-1" />
+          <p className="text-gray-300">
+            <Link href="/seo-services" className="text-blue-400 hover:underline">
+              SEO Services
+            </Link>{" "}
+            – Improve rankings and traffic
+          </p>
+        </li>
+
+        {/* Google Ads */}
+        <li className="flex items-start gap-3">
+          <FaGoogle className="text-red-400 text-lg mt-1" />
+          <p className="text-gray-300">
+            <Link href="/google-ads-services" className="text-blue-400 hover:underline">
+              Google Ads
+            </Link>{" "}
+            – Lead generation campaigns
+          </p>
+        </li>
+
+        {/* Meta Ads */}
+        <li className="flex items-start gap-3">
+          <SiMeta className="text-blue-400 text-lg mt-1" />
+          <p className="text-gray-300">
+            <Link href="/meta-ads-services" className="text-blue-400 hover:underline">
+              Meta Ads
+            </Link>{" "}
+            – Facebook & Instagram marketing
+          </p>
+        </li>
+
+      </ul>
+    </div>
 
     <h3 className="mt-10 text-2xl font-semibold">
       Conclusion
