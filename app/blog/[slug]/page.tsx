@@ -868,6 +868,23 @@ import type { Metadata } from "next";
 //     },
 //   };
 // }
+
+
+const services = [
+  { title: "Neto by Maropost", slug: "/neto-by-maropost-development" },
+  { title: "Shopify Development", slug: "/shopify-development-services" },
+  { title: "WordPress Development", slug: "/wordpress-development-services" },
+  { title: "BigCommerce Development", slug: "/bigcommerce-development-services" },
+  { title: "Vue.js Development", slug: "/vue-js-development" },
+  { title: "React.js Development", slug: "/react-js-development" },
+  { title: "Node.js Development", slug: "/node-js-development" },
+  { title: "Next.js Development", slug: "/next-js-development" },
+  { title: "Express.js Development", slug: "/express-js-development" },
+  { title: "SEO Services", slug: "/seo-services" },
+  { title: "Amazon PPC Services", slug: "/amazon-ppc-services" },
+  { title: "Meta Ads Services", slug: "/meta-ads-services" },
+  { title: "Google Ads Services", slug: "/google-ads-services" },
+];
 type FAQ = {
   question: string;
   answer: string;
@@ -1082,6 +1099,26 @@ const faqs = blog.faqs || []; // ✅ ADD THIS
               </Link>
             ))}
           </div>
+
+          <div className="bg-white/5 p-5 rounded-xl border border-white/10">
+  <h4 className="font-semibold mb-4">Our Services</h4>
+
+  <ul className="text-sm">
+    {services.map((item) => (
+      <li
+        key={item.slug}
+        className="border-b border-white/10 last:border-none"
+      >
+        <Link
+          href={item.slug}
+          className="block py-2 px-2 text-gray-300 hover:text-white hover:bg-white/5 rounded transition"
+        >
+          → {item.title}
+        </Link>
+      </li>
+    ))}
+  </ul>
+</div>
 
         </aside>
 
