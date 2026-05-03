@@ -59,6 +59,15 @@ const blogs: Blog[] = [
     date: "March 5, 2026",
     readTime: "5 min read",
   },
+   {
+    id: 5,
+    title: "Shopify & WordPress Development ",
+    description: "Looking for Shopify and WordPress development in Rajkot? Get SEO-friendly websites that generate leads and sales.",
+    image: "/shopivswordpress.png",
+    slug: "shopify-wordpress-rajkot",
+    date: "March 30, 2026",
+    readTime: "5 min read",
+  },
 ];
 
 export default function BlogSlider() {
@@ -99,7 +108,7 @@ export default function BlogSlider() {
                     src={blog.image}
                     alt={blog.title}
                     fill
-                    className="object-cover group-hover:scale-110 transition duration-500"
+                    className="group-hover:scale-110 transition duration-500"
                   />
 
                   {/* Gradient overlay */}
