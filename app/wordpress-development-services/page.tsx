@@ -2,6 +2,8 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Allinone from "@/components/allinobe";
+
+export const revalidate = 60;
 import {
   FaShopify,
   FaWordpress,
@@ -491,7 +493,23 @@ export default function WordPressServicePage() {
 
       </ul>
     </div>
+<h2 className="mt-10 text-2xl font-semibold">Our WordPress Development Process</h2>
+<ul>
+<li>Requirement Analysis</li>
+<li>Design</li>
+<li>Development</li>
+<li>Testing</li>
+</ul>
 
+<h2 className="mt-10 text-2xl font-semibold">Why Choose MVP Infotech?</h2>
+<ul data-spread="false">
+<li>12+ years of industry experience</li>
+<li>2000+ successful projects</li>
+<li>SEO-friendly development approach</li>
+<li>Fast and responsive websites</li>
+<li>Ongoing support and maintenance</li>
+</ul>
+<p className="mt-4">👉 <a className="text-blue-400 hover:underline" href="/ourwork">View our recent WordPress projects</a> </p> 
     <h3 className="mt-10 text-2xl font-semibold">
       Conclusion
     </h3>
