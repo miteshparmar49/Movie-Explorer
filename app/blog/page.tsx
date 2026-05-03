@@ -63,7 +63,7 @@ const blogs: Blog[] = [
     id: 5,
     title: "Shopify & WordPress Development ",
     description: "Looking for Shopify and WordPress development in Rajkot? Get SEO-friendly websites that generate leads and sales.",
-    image: "/shopivswordpress.png",
+    image: "/shopify_wordpress_rajkot.png",
     slug: "shopify-wordpress-rajkot",
     date: "March 30, 2026",
     readTime: "5 min read",
