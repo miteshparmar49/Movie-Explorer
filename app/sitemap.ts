@@ -28,7 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog/neto-to-shopify",
     "/blog/ecommerce-trends",
     "/blog/cro-tips",
-    "/shopify-wordpress-rajkot",
+    "/blog/shopify-wordpress-rajkot",
   ];
 
   return routes.map((route) => ({
