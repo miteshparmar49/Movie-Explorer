@@ -17,7 +17,7 @@ import {
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.mvpinfotech.in"),
 
-  title: "WordPress Development Services | Elementor & WooCommerce Experts",
+  title: "Best WordPress Development Services in australia",
 
   description:
     "Professional WordPress development services including custom website design, Elementor development, WooCommerce store setup, speed optimisation and SEO-friendly websites.",
@@ -100,7 +100,7 @@ export default function WordPressServicePage() {
     <main className="relative overflow-hidden">
 
       {/* SCHEMA */}
-      <script
+      {/* <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -117,7 +117,47 @@ export default function WordPressServicePage() {
               "Professional WordPress development services including Elementor websites, WooCommerce ecommerce stores and website optimisation.",
           }),
         }}
-      />
+      /> */}
+
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Service",
+
+      name: "WordPress Development Services",
+
+      serviceType: "WordPress Website Development",
+
+      url: "https://www.mvpinfotech.in/wordpress-development-services",
+
+      provider: {
+        "@type": "Organization",
+        name: "MVP InfoTech",
+        url: "https://www.mvpinfotech.in",
+        logo: "https://www.mvpinfotech.in/logo.png",
+      },
+
+      image: "https://www.mvpinfotech.in/wordpress-development.jpg",
+
+     areaServed: {
+        "@type": "Place",
+        name: "Worldwide",
+      },
+
+      description:
+        "Professional WordPress development services including Elementor websites, WooCommerce ecommerce stores and website optimisation.",
+
+      offers: {
+        "@type": "Offer",
+        priceCurrency: "AUD",
+        availability: "https://schema.org/InStock",
+      },
+    }),
+  }}
+/>
+
 <div className="max-w-7xl mx-auto px-6 py-3 text-sm text-gray-400 inset-0 -z-10 bg-gradient-to-r from-[#0b1020] via-[#2b1e4f] to-[#0b1020]">
         <Link href="/">Home</Link> / wordpress-development-services
       </div>

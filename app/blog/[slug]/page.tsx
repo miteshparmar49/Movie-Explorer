@@ -818,7 +818,7 @@ Yes, Shopify provides built-in SEO features, but you need to optimize your store
 <p>Start optimizing your website today and turn more visitors into loyal customers.</p>`,
   },
   {
-  title: "Shopify vs WordPress Development in Rajkot – Complete Guide 2026",
+  title: "Top Shopify Development Companies in Rajkot",
   slug: "shopify-wordpress-rajkot",
   description:
     "Looking for Shopify or WordPress development in Rajkot? Compare both platforms and choose the best solution for your business growth.",

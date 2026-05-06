@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.mvpinfotech.in"),
 
   title:
-    "Shopify Development Services Worldwide | Shopify Experts & Ecommerce Solutions",
+    "Shopify Development Services",
 
   description:
     "Hire expert Shopify developers for custom store development, theme customization, app integration, and performance optimization worldwide.",
