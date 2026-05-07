@@ -20,23 +20,6 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ["lucide-react"],
   },
-
-  // ✅ Force WWW + HTTPS
-  async redirects() {
-    return [
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "mvpinfotech.in",
-          },
-        ],
-        destination: "https://www.mvpinfotech.in/:path*",
-        permanent: true,
-      },
-    ];
-  },
 };
 
 export default nextConfig;
