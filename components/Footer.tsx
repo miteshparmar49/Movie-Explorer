@@ -7,8 +7,10 @@ import {
 } from "react-icons/fi";
 import {
   FaLinkedinIn,
-  FaTwitter,
   FaWhatsapp,
+  FaInstagram,
+  FaFacebookF,
+  FaTwitter,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -183,38 +185,63 @@ export default function Footer() {
 
             {/* Social icons */}
             <div className="mt-6 flex items-center gap-3">
+  
+  {/* LinkedIn */}
+  <a
+    href="https://www.linkedin.com/in/mvp-infotech/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="h-9 w-9 rounded-lg bg-black border border-black flex items-center justify-center hover:bg-gray-800 transition"
+    aria-label="LinkedIn"
+  >
+    <FaLinkedinIn className="text-white" />
+  </a>
 
-              <a
-                href="https://www.linkedin.com/in/mitesh-parmar-602601184/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="h-9 w-9 rounded-lg bg-black border border-black flex items-center justify-center hover:bg-gray-800 transition"
-                aria-label="LinkedIn"
-              >
-                <FaLinkedinIn  />
-              </a>
+ 
 
-             
+  {/* Instagram */}
+  <a
+    href="https://www.instagram.com/mvp_infotech/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="h-9 w-9 rounded-lg bg-black border border-black flex items-center justify-center hover:bg-gray-800 transition"
+    aria-label="Instagram"
+  >
+    <FaInstagram className="text-white" />
+  </a>
 
-              {/* <a
-                href="#"
-                className="h-9 w-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition"
-                aria-label="Twitter"
-              >
-                <FaTwitter />
-              </a> */}
+  {/* Facebook */}
+  <a
+    href="https://www.facebook.com/mvpinfotech"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="h-9 w-9 rounded-lg bg-black border border-black flex items-center justify-center hover:bg-gray-800 transition"
+    aria-label="Facebook"
+  >
+    <FaFacebookF className="text-white" />
+  </a>
 
-             <a
-  href="https://wa.me/919574927922?text=Hi%2C%20I%20need%20Neto%20developer"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="h-9 w-9 rounded-lg bg-black border border-black flex items-center justify-center hover:bg-gray-800 transition"
-  aria-label="WhatsApp"
->
-  <FaWhatsapp className="text-white" />
-</a>
-
-            </div>
+  {/* Twitter / X */}
+  <a
+    href="https://x.com/mvpinfotech"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="h-9 w-9 rounded-lg bg-black border border-black flex items-center justify-center hover:bg-gray-800 transition"
+    aria-label="Twitter"
+  >
+    <FaTwitter className="text-white" />
+  </a>
+ {/* WhatsApp */}
+  <a
+    href="https://wa.me/919574927922?text=Hi%2C%20I%20need%20Neto%20developer"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="h-9 w-9 rounded-lg bg-black border border-black flex items-center justify-center hover:bg-gray-800 transition"
+    aria-label="WhatsApp"
+  >
+    <FaWhatsapp className="text-white" />
+  </a>
+</div>
           </address>
         </div>
 
