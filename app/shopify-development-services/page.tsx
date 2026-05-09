@@ -68,12 +68,82 @@ export default function ShopifyServicePage() {
     __html: JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Service",
+      serviceType: "Shopify Development Services",
       name: "Shopify Development Services",
+      description:
+        "Professional Shopify ecommerce development services including Shopify store setup, custom theme development, SEO optimisation, app integration and ongoing support.",
+      url: "https://www.mvpinfotech.in/shopify-development-services",
       provider: {
         "@type": "Organization",
         name: "MVP Infotech",
         url: "https://www.mvpinfotech.in",
+        logo: "https://www.mvpinfotech.in/logo.png",
+        sameAs: [
+          "https://www.instagram.com/mvpinfotech/",
+          "https://www.linkedin.com/company/mvpinfotech/"
+        ]
       },
+      areaServed: {
+        "@type": "Country",
+        name: "India"
+      },
+      category: "Ecommerce Development",
+      offers: {
+        "@type": "Offer",
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock"
+      }
+    }),
+  }}
+/>
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is Shopify ecommerce development?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Shopify ecommerce development is the process of building, customising and optimising online stores using the Shopify platform for better performance and sales."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Do you provide custom Shopify theme development?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, we provide fully custom Shopify theme development tailored to your business requirements and brand identity."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Can you migrate my existing store to Shopify?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, we can migrate your products, customers, orders and content from platforms like WooCommerce, Magento or BigCommerce to Shopify."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Do you offer Shopify SEO services?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, we provide Shopify SEO optimisation services including technical SEO, speed optimisation, schema markup and on-page SEO improvements."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "How much does Shopify development cost?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Shopify development costs depend on the project scope, custom features, integrations and design requirements. Contact us for a custom quote."
+          }
+        }
+      ]
     }),
   }}
 />
