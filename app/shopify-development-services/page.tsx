@@ -79,7 +79,7 @@ export default function ShopifyServicePage() {
 />
 
  <div className="max-w-7xl mx-auto px-6 py-3 text-sm text-gray-400 inset-0 -z-10 bg-gradient-to-r from-[#0b1020] via-[#2b1e4f] to-[#0b1020]">
-        <Link href="/">Home</Link> / shopify-development-services
+        <Link href="https://www.mvpinfotech.in/">Home</Link> / shopify-development-services
       </div>
       {/* HERO */}
       <section className="relative py-24">
@@ -133,10 +133,10 @@ export default function ShopifyServicePage() {
             </p>
 
             <ul className="mt-6 space-y-3 text-white/70">
-              <li>🚀 Conversion focused design</li>
-              <li>⚡ Fast performance</li>
-              <li>📱 Mobile friendly layout</li>
-              <li>🎯 SEO optimized</li>
+              <li> Conversion focused design</li>
+              <li> Fast performance</li>
+              <li> Mobile friendly layout</li>
+              <li> SEO optimized</li>
             </ul>
           </div>
 
@@ -211,10 +211,10 @@ export default function ShopifyServicePage() {
             </p>
 
             <ul className="mt-6 space-y-3 text-white/70">
-              <li>📊 Sales tracking</li>
-              <li>📈 Growth insights</li>
-              <li>🎯 Conversion analytics</li>
-              <li>⚡ Performance monitoring</li>
+              <li>Sales tracking</li>
+              <li>Growth insights</li>
+              <li>Conversion analytics</li>
+              <li>Performance monitoring</li>
             </ul>
           </div>
 
@@ -229,7 +229,7 @@ export default function ShopifyServicePage() {
   </h2>
 
   <p className="mt-6 text-white/70">
-    <strong>Shopify ecommerce development</strong> is one of the most effective ways to build a scalable, high-performing and conversion-focused online store. 
+    <strong><Link className="text-blue-400 hover:underline" href="https://www.mvpinfotech.in/">Shopify ecommerce development</Link></strong> is one of the most effective ways to build a scalable, high-performing and conversion-focused online store. 
     <strong>Shopify</strong> is a leading ecommerce platform trusted by millions of businesses worldwide, from startups to enterprise-level brands. 
     It offers a powerful combination of flexibility, security and ease of use, allowing businesses to create professional online stores without technical complexity. 
     With built-in features, seamless integrations and a vast app ecosystem, <strong>Shopify store development</strong> helps businesses launch and grow faster in today’s competitive digital market.
@@ -469,12 +469,25 @@ export default function ShopifyServicePage() {
     Conclusion
   </h3>
 
-  <p className="mt-4 text-white/70">
-    <strong>Shopify ecommerce development</strong> is the perfect solution for businesses looking to build a powerful online presence. 
-    With our expert <strong>Shopify development services</strong>, you can create a professional, scalable and high-performing ecommerce store that drives growth and success. 
-    Whether you need <strong>Shopify store setup</strong>, <strong>custom development</strong>, <strong>SEO optimisation</strong> or ongoing support, 
-    we are here to help you achieve your ecommerce goals.
-  </p>
+<p className="mt-4 text-white/70">
+  <strong>Shopify ecommerce development</strong> is the perfect solution for businesses looking to build a powerful online presence. 
+  With our expert <strong>Shopify development services</strong>, you can create a professional, scalable and high-performing ecommerce store that drives growth and success. 
+  Whether you need <strong>Shopify store setup</strong>, <strong>custom development</strong>, <strong>SEO optimisation</strong> or ongoing support, 
+  we are here to help you achieve your ecommerce goals.
+</p>
+
+<p className="">
+  Follow us on{" "}
+  <a
+    href="https://www.instagram.com/mvp_infotech/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-pink-400 hover:text-pink-300 underline"
+  >
+    Instagram
+  </a>{" "}
+  for the latest ecommerce tips, Shopify updates and project showcases.
+</p>
 
 </section>
 <Allinone/>
