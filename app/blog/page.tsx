@@ -68,6 +68,15 @@ const blogs: Blog[] = [
     date: "March 30, 2026",
     readTime: "5 min read",
   },
+  {
+    id: 6,
+    title: "Neto vs Shopify in 2026? ",
+    description: "Compare Neto vs Shopify for your eCommerce business. Discover features, pricing, SEO benefits, and which platform is best for your online store in 2026.",
+    image: "/neto-vs-shopify.png",
+    slug: "neto-vs-shopify",
+    date: "May 14, 2026",
+    readTime: "5 min read",
+  },
 ];
 
 export default function BlogSlider() {
