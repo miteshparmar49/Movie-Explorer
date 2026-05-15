@@ -34,9 +34,7 @@ export default function OfferPopup() {
     <div className="side-popup">
       <button className="popup-close" onClick={closePopup}>✕</button>
 
-      <h3 className="text-blue-600">Get 5 Hours of FREE Website Development</h3>
-<p>New customers only — No upfront cost
-Test our work before you pay anything</p>
+      
       <p className="popup-subtext">
           Get <b>20% OFF</b> your first project <br />
           <span className="highlight">Save up to $150</span>
