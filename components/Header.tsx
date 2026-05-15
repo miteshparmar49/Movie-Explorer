@@ -170,7 +170,7 @@ const [serviceOpen, setServiceOpen] = useState(false);
 
           {/* Desktop CTA */}
           <Link
-            href="contact"
+            href="https://www.mvpinfotech.in/contact"
             className="hidden md:inline-flex rounded-md bg-gradient-to-r from-indigo-500 to-purple-600 px-4 py-2 text-sm font-medium text-white shadow-md shadow-indigo-500/30 hover:opacity-90 transition disabled:opacity-60"
           >
             Hire Me
@@ -293,7 +293,7 @@ const [serviceOpen, setServiceOpen] = useState(false);
 
               <li className="p-4">
                 <Link
-                 href="/contact"
+                 href="https://www.mvpinfotech.in/contact"
                   onClick={() => setOpen(false)}
                   className="block w-full rounded-md bg-white text-black text-center py-2 font-medium"
                 >
