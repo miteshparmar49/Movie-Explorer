@@ -77,6 +77,15 @@ const blogs: Blog[] = [
     date: "May 14, 2026",
     readTime: "5 min read",
   },
+   {
+    id: 7,
+    title: "Google Core Updates 2026: Complete SEO Guide",
+    description: "Learn how Google's latest Core Updates impact website rankings, EEAT, Helpful Content, and SEO performance in 2026.",
+    image:"/google-core-updates-2026.png",
+    slug: "google-core-updates-2026",
+    date: "June 1, 2026",
+    readTime: "5 min read",
+  },
 ];
 
 export default function BlogSlider() {

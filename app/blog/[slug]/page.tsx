@@ -1137,6 +1137,137 @@ Yes, Shopify provides built-in SEO features, but you need to optimize your store
 
 <p>Before choosing a platform, consider your business size, budget, inventory requirements, and future growth plans. Not sure which fits you? <a href="https://www.mvpinfotech.in/contact">Get a free consultation</a> and we'll help you decide.</p>
 `
+},
+{
+  title: "Google Core Updates 2026: Complete SEO Guide",
+  slug: "google-core-updates-2026",
+  description:
+    "Learn how Google's latest Core Updates impact website rankings, EEAT, Helpful Content, and SEO performance in 2026.",
+
+  image:"/google-core-updates-2026.png",
+
+  date: "June 01, 2026",
+  readTime: "6 min read",
+
+  keywords: [
+    "Google Core Updates 2026",
+    "Google SEO Update",
+    "Helpful Content Update",
+    "EEAT SEO",
+    "Google Ranking Factors",
+    "Core Web Vitals",
+    "SEO Best Practices",
+    "Search Engine Optimization",
+    "Google Search Central",
+    "Website Ranking"
+  ],
+
+  faqs: [
+    {
+      question: "What are Google Core Updates?",
+      answer:
+        "Google Core Updates are broad changes to Google's ranking systems designed to improve search result quality.",
+    },
+    {
+      question: "Can a Core Update affect my rankings?",
+      answer:
+        "Yes, rankings may increase or decrease depending on how your content compares with competing pages.",
+    },
+    {
+      question: "How can I recover from a Core Update?",
+      answer:
+        "Focus on creating helpful content, improving EEAT signals, and providing a better user experience.",
+    },
+    {
+      question: "What is EEAT in SEO?",
+      answer:
+        "EEAT stands for Experience, Expertise, Authoritativeness, and Trustworthiness.",
+    },
+    {
+      question: "Does Google penalize AI content?",
+      answer:
+        "Google evaluates content quality rather than how content is created.",
+    }
+  ],
+
+  content: `
+    <h2>Google Core Updates 2026: What Website Owners Need to Know</h2>
+
+    <p>
+      Google regularly releases Core Updates to improve search quality and help users find the most relevant and useful content.
+    </p>
+
+    <h3>What Are Google Core Updates?</h3>
+
+    <p>
+      Core Updates are significant improvements to Google's ranking systems. They are not penalties but reassess how content is ranked across the web.
+    </p>
+
+    <h3>Why Rankings Change After a Core Update</h3>
+
+    <ul>
+      <li>Content quality improvements by competitors</li>
+      <li>Changes in search intent</li>
+      <li>Better user experience on other websites</li>
+      <li>Stronger EEAT signals</li>
+      <li>More relevant and up-to-date information</li>
+    </ul>
+
+    <h3>Focus on Helpful Content</h3>
+
+    <p>
+      Google recommends creating content primarily for people rather than search engines.
+    </p>
+
+    <ul>
+      <li>Answer user questions clearly</li>
+      <li>Provide original insights</li>
+      <li>Share real-world experience</li>
+      <li>Keep content updated</li>
+    </ul>
+
+    <h3>Understanding EEAT</h3>
+
+    <p>
+      EEAT stands for Experience, Expertise, Authoritativeness and Trustworthiness.
+    </p>
+
+    <ul>
+      <li><strong>Experience:</strong> First-hand knowledge</li>
+      <li><strong>Expertise:</strong> Subject matter knowledge</li>
+      <li><strong>Authority:</strong> Industry recognition</li>
+      <li><strong>Trust:</strong> Accuracy and transparency</li>
+    </ul>
+
+    <h3>Core Web Vitals Matter</h3>
+
+    <p>
+      User experience remains important for SEO success.
+    </p>
+
+    <ul>
+      <li>LCP under 2.5 seconds</li>
+      <li>INP under 200ms</li>
+      <li>CLS under 0.1</li>
+    </ul>
+
+    <h3>Best Practices After a Core Update</h3>
+
+    <ul>
+      <li>Update outdated content</li>
+      <li>Improve page speed</li>
+      <li>Strengthen internal linking</li>
+      <li>Add expert insights</li>
+      <li>Improve mobile usability</li>
+      <li>Build trust signals</li>
+    </ul>
+
+    <h3>Conclusion</h3>
+
+    <p>
+      The best long-term SEO strategy is creating valuable, trustworthy, and user-focused content. Websites that consistently help users are more likely to perform well after future Google Core Updates.
+    </p>
+  `
 }
 ];
 
