@@ -129,7 +129,7 @@ export default function ContactUs() {
               disabled={loading}
               className="rounded-md bg-gradient-to-r from-indigo-500 to-purple-600 px-4 py-2 text-sm font-medium text-white shadow-md shadow-indigo-500/30 hover:opacity-90 transition disabled:opacity-60"
             >
-              {loading ? "Sending..." : "Send"}
+              {loading ? "Sending..." : "Get Free Consultation"}
             </button>
 
             {status === "success" && (
