@@ -79,7 +79,7 @@ const blogs: Blog[] = [
   },
    {
     id: 7,
-    title: "Google Core Updates 2026: Complete SEO Guide",
+    title: "Google Core Updates 2026",
     description: "Learn how Google's latest Core Updates impact website rankings, EEAT, Helpful Content, and SEO performance in 2026.",
     image:"/google-core-updates-2026.png",
     slug: "google-core-updates-2026",
