@@ -99,3 +99,7 @@ strong {
 .blog-section section#about {
     padding-bottom: 0;
 }
+
+.mvp_infotech_img{
+  height: auto !important;
+}
