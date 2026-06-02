@@ -195,7 +195,7 @@ const platformColor: Record<string, string> = {
 
 export default function ClientReviews() {
   return (
-    <section className="pt-24 relative overflow-hidden">
+    <section className="py-24 relative overflow-hidden">
 
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-indigo-500/5 rounded-full blur-[120px] pointer-events-none" />
