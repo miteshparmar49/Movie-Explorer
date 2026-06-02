@@ -155,7 +155,7 @@ export default function OfferPopup() {
           onClick={closePopup}
           className="block w-full text-center bg-indigo-500 hover:bg-indigo-400 transition-colors text-white font-medium text-sm py-3 rounded-xl mb-3"
         >
-          Claim my 20% discount →
+          Claim my 10% discount →
         </Link>
 
         {/* Social proof */}
