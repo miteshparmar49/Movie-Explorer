@@ -204,7 +204,7 @@ export default function Home() {
 
             {/* H1 — SEO optimised, clean */}
             <h1 className="text-5xl md:text-6xl font-extrabold text-white leading-[1.05] tracking-[-2px] mb-6">
-              Full-Stack
+              We Build 
               <br />
               <span
                 className="text-transparent bg-clip-text"
@@ -213,20 +213,20 @@ export default function Home() {
                     "linear-gradient(135deg, #818cf8 0%, #a78bfa 50%, #60a5fa 100%)",
                 }}
               >
-                Ecommerce
+               E-commerce 
               </span>
               <br />
-              Developer
+              Stores That Sell
             </h1>
 
-            <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-[480px] font-light">
-              I build fast, scalable and SEO-friendly ecommerce stores on{" "}
-              <span className="text-white font-medium">Neto</span>,{" "}
-              <span className="text-white font-medium">Shopify</span>,{" "}
-              <span className="text-white font-medium">WordPress</span> and{" "}
-              <span className="text-white font-medium">BigCommerce</span> — with
-              12+ years experience and 2,000+ projects delivered worldwide.
-            </p>
+          <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-[480px] font-light">
+            Fast, scalable and SEO-friendly ecommerce stores on{" "}
+            <span className="text-white font-medium">Neto</span>,{" "}
+            <span className="text-white font-medium">Shopify</span>,{" "}
+            <span className="text-white font-medium">WordPress</span> and{" "}
+            <span className="text-white font-medium">BigCommerce</span> —{" "}
+            <span className="text-white font-medium">built to rank and convert.</span>
+          </p>
 
             {/* Platform pills */}
             <div className="flex flex-wrap gap-2 mb-10">
