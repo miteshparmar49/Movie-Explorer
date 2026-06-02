@@ -127,7 +127,7 @@ export default function OfferPopup() {
         {/* Headline */}
         <p className="text-white text-xl font-semibold leading-snug mb-1">
           Get{" "}
-          <span className="text-indigo-400">20% off</span>{" "}
+          <span className="text-indigo-400">10% off</span>{" "}
           your first project
         </p>
         <p className="text-white/55 text-sm leading-relaxed mb-4">
