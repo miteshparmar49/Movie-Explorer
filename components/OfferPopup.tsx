@@ -131,9 +131,9 @@ export default function OfferPopup() {
           your first project
         </p>
         <p className="text-white/55 text-sm leading-relaxed mb-4">
-          Save up to{" "}
-          <strong className="text-white">$150 AUD</strong>{" "}
-          on a custom Neto by maropost Shopify, WordPress or WooCommerce website.
+          {/* Save up to{" "}
+          <strong className="text-white">$150</strong>{" "}
+          on a custom Neto by maropost Shopify, WordPress or WooCommerce website. */}
         </p>
 
         {/* Micro benefits */}
