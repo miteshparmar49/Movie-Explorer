@@ -108,14 +108,14 @@ import BlogSlider from "./blog/page";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.mvpinfotech.in"),
-  title: "ecommerce website development company | MVP InfoTech",
+  title: "Ecommerce Website Development Company | MVP InfoTech",
   description:
     "Grow your business with Shopify, Neto, WordPress & BigCommerce development, SEO and custom eCommerce solutions from MVP InfoTech.",
   alternates: {
     canonical: "https://www.mvpinfotech.in",
   },
   openGraph: {
-    title: "ecommerce website development company | MVP InfoTech",
+    title: "Ecommerce Website Development Company | MVP InfoTech",
     description:
       "Grow your business with Shopify, Neto, WordPress & BigCommerce development, SEO and custom eCommerce solutions from MVP InfoTech.",
     url: "https://www.mvpinfotech.in",
@@ -126,13 +126,13 @@ export const metadata: Metadata = {
         url: "https://www.mvpinfotech.in/og-image.png",
         width: 1200,
         height: 630,
-        alt: "ecommerce website development company",
+        alt: "Ecommerce Website Development Company",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ecommerce website development company | MVP InfoTech",
+    title: "Ecommerce Website Development Company | MVP InfoTech",
     description:
       "Grow your business with Shopify, Neto, WordPress & BigCommerce development, SEO and custom eCommerce solutions from MVP InfoTech.",
     images: ["https://www.mvpinfotech.in/og-image.png"],
