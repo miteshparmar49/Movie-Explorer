@@ -108,16 +108,16 @@ import BlogSlider from "./blog/page";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.mvpinfotech.in"),
-  title: "Full-Stack Ecommerce Developer | Neto, Shopify, WordPress & BigCommerce | MVP InfoTech",
+  title: "ecommerce website development company | MVP InfoTech",
   description:
-    "Expert full-stack ecommerce developer specialising in Neto by Maropost, Shopify, WordPress and BigCommerce. 12+ years experience, 2,000+ projects delivered worldwide. Fast, SEO-friendly and conversion-focused.",
+    "Grow your business with Shopify, Neto, WordPress & BigCommerce development, SEO and custom eCommerce solutions from MVP InfoTech.",
   alternates: {
     canonical: "https://www.mvpinfotech.in",
   },
   openGraph: {
-    title: "Full-Stack Ecommerce Developer | MVP InfoTech",
+    title: "ecommerce website development company | MVP InfoTech",
     description:
-      "Neto, Shopify, WordPress and BigCommerce expert. 12+ years experience building fast, SEO-friendly ecommerce stores worldwide.",
+      "Grow your business with Shopify, Neto, WordPress & BigCommerce development, SEO and custom eCommerce solutions from MVP InfoTech.",
     url: "https://www.mvpinfotech.in",
     siteName: "MVP InfoTech",
     type: "website",
@@ -126,15 +126,15 @@ export const metadata: Metadata = {
         url: "https://www.mvpinfotech.in/og-image.png",
         width: 1200,
         height: 630,
-        alt: "MVP InfoTech — Full-Stack Ecommerce Developer",
+        alt: "ecommerce website development company",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Full-Stack Ecommerce Developer | MVP InfoTech",
+    title: "ecommerce website development company | MVP InfoTech",
     description:
-      "Neto, Shopify, WordPress and BigCommerce expert. Fast, SEO-friendly ecommerce development worldwide.",
+      "Grow your business with Shopify, Neto, WordPress & BigCommerce development, SEO and custom eCommerce solutions from MVP InfoTech.",
     images: ["https://www.mvpinfotech.in/og-image.png"],
   },
   robots: { index: true, follow: true },
