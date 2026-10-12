@@ -77,13 +77,19 @@ const inter = Inter({
   display: "swap",
 });
 
+
+
 export const metadata: Metadata = {
+  
   title: "Neto Developer Australia | Shopify & Maropost Experts | MVP Infotech",
   description:
     "Looking for a reliable eCommerce developer for Australia? We specialize in Shopify, Neto (Maropost) and custom solutions for Australian businesses.",
 
   alternates: {
     canonical: "https://www.mvpinfotech.in",
+  },
+   other: {
+    "google-adsense-account": "ca-pub-3538777122492099",
   },
 
   icons: {
