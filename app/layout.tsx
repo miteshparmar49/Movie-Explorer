@@ -183,6 +183,13 @@ export default function RootLayout({
           })(window, document, "clarity", "script", "wp0egv7hlz");
         `}
       </Script>
+      
+<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3538777122492099"
+  crossOrigin="anonymous"
+/>
+
         <Header />
         <main>{children}</main>
         <OfferPopup />
