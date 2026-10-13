@@ -32,7 +32,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog/neto-vs-shopify",
     "/blog/google-core-updates-2026",
     "/ourwork",
-    "/website-developer-in-rajkot"
+    "/website-developer-in-rajkot",
+    "/privacy-policy",
+    "/terms-of-service",
+    "/data-deletion",
+    "/social-tool"
   ];
 
   return routes.map((route) => ({

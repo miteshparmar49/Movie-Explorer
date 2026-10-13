@@ -245,13 +245,32 @@ export default function Footer() {
           </address>
         </div>
 
-        {/* bottom bar */}
-        <div className="border-t border-white/10">
-          <div className="mx-auto max-w-7xl px-6 py-6 text-sm text-white/60 flex flex-col md:flex-row gap-2 justify-between">
-            <p>Copyright © {year} MVP InfoTech. All Rights Reserved.</p>
-            <p>Neto · Maropost · Shopify · BigCommerce · Next.js</p>
-          </div>
-        </div>
+    
+{/* bottom bar */}
+<div className="border-t border-white/10">
+  <div className="mx-auto max-w-7xl px-6 py-6 text-sm text-white/60 flex flex-col md:flex-row gap-4 justify-between">
+    <p>Copyright © {year} MVP InfoTech. All Rights Reserved.</p>
+
+    <div className="flex flex-wrap gap-x-4 gap-y-2">
+      <a href="https://www.mvpinfotech.in/privacy-policy" className="hover:text-white transition-colors">
+        Privacy Policy
+      </a>
+
+      <a href="/terms-of-service" className="hover:text-white transition-colors">
+        Terms of Service
+      </a>
+
+      <a href="/data-deletion" className="hover:text-white transition-colors">
+        Data Deletion
+      </a>
+
+      <a href="/social-tool" className="hover:text-white transition-colors">
+        Social Tool
+      </a>
+    </div>
+  </div>
+</div>
+
 
       </div>
     </footer>
