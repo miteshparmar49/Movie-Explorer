@@ -178,8 +178,8 @@ export default function Footer() {
               </li>
 
               <li className="flex items-center gap-3">
-                <FiMapPin className="text-white/80" />
-                <span>Rajkot, Gujarat, India</span>
+                <FiMapPin className="text-white/80"   />
+                <span>MVP InfoTech, Maldhari Society, Block no 5, RTO Road, Rajkot, Gujarat 360003, India</span>
               </li>
             </ul>
 

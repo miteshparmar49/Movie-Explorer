@@ -113,3 +113,6 @@ strong {
   color: #fff !important;
   font-weight: 700 !important;
 }
+address.not-italic svg.text-white\/80 {
+    min-width: 20px;
+}
