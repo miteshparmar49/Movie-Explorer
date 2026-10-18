@@ -165,10 +165,10 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <FiMail className="text-white/80" />
                 <a
-                  href="mailto:mvpinfotechmitesh@gmail.com"
+                  href="mailto:support@mvpinfotech.in"
                   className="hover:text-white transition"
                 >
-                  mvpinfotechmitesh@gmail.com
+                  support@mvpinfotech.in
                 </a>
               </li>
 
