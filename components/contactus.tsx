@@ -170,8 +170,8 @@ const contactInfo = [
   {
     icon: <FiMail size={15} />,
     label: "Email",
-    value: "mvpinfotechmitesh@gmail.com",
-    href: "mailto:mvpinfotechmitesh@gmail.com",
+    value: "support@mvpinfotech.in",
+    href: "mailto:support@mvpinfotech.in",
   },
   {
     icon: <FiPhone size={15} />,

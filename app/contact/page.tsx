@@ -272,7 +272,7 @@ const inputCls =
 /* ------------------------------------------------------------------ */
 
 const CONTACT_ITEMS = [
-  { icon: <MailIcon />, label: "Email", value: "mvpinfotechmitesh@gmail.com", href: "mailto:mvpinfotechmitesh@gmail.com" },
+  { icon: <MailIcon />, label: "Email", value: "support@mvpinfotech.in", href: "mailto:support@mvpinfotech.in" },
   { icon: <PhoneIcon />, label: "Phone", value: "+91 9574927922", href: "tel:+919574927922" },
   { icon: <PinIcon />, label: "Location", value: "Rajkot, Gujarat, India", href: "https://www.google.com/maps/search/?api=1&query=Rajkot%2C+Gujarat%2C+India" },
   { icon: <WhatsAppIcon />, label: "WhatsApp", value: "Chat instantly on WhatsApp", href: "https://wa.me/919574927922?text=Hi%2C%20I%20need%20Neto%20developer" },
