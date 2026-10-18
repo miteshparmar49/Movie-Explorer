@@ -64,7 +64,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-[16px] md:text-[18px] text-white/45 leading-relaxed max-w-2xl mx-auto mb-10"
         >
-          250+ projects built on Neto, Shopify, BigCommerce, Next.js and WordPress — each one designed
+          149+ projects built on Neto, Shopify, BigCommerce, Next.js and WordPress — each one designed
           to increase revenue, improve performance and outrank the competition.
         </motion.p>
 
@@ -97,10 +97,10 @@ export default function Hero() {
           className="mt-14 flex flex-wrap items-center justify-center gap-8 text-center"
         >
           {[
-            { v: "250+", l: "Projects" },
+            { v: "149+", l: "Projects" },
             { v: "12+", l: "Years" },
             { v: "98%", l: "Satisfaction" },
-            { v: "12", l: "Countries" },
+            { v: "10", l: "Countries" },
           ].map((s, i) => (
             <motion.div
               key={s.l}

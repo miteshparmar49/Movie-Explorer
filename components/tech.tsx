@@ -276,7 +276,7 @@ export default function TechStack() {
           {[
             { num: "13", label: "Technologies mastered", color: "#818cf8" },
             { num: "12+", label: "Years building ecommerce", color: "#06b6d4" },
-            { num: "2,000+", label: "Projects shipped", color: "#42b883" },
+            { num: "149+", label: "Projects shipped", color: "#42b883" },
             { num: "98", label: "Avg PageSpeed score", color: "#f97316" },
           ].map((s) => (
             <div

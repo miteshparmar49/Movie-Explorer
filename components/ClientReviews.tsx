@@ -222,7 +222,7 @@ export default function ClientReviews() {
             </div>
             <div className="w-px h-4 bg-white/10 hidden sm:block" />
             <div className="text-white/50 text-sm">
-              ✓ <span className="text-white/70 font-medium">50+ projects</span> delivered worldwide
+              ✓ <span className="text-white/70 font-medium">149+ projects</span> delivered worldwide
             </div>
             <div className="w-px h-4 bg-white/10 hidden sm:block" />
             <div className="text-white/50 text-sm">

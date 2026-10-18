@@ -188,7 +188,7 @@ const skills = [
 
 const highlights = [
   { num: "12+", label: "Years Experience", icon: "🏆" },
-  { num: "2,000+", label: "Projects Delivered", icon: "🚀" },
+  { num: "149+", label: "Projects Delivered", icon: "🚀" },
   { num: "10+", label: "Countries Served", icon: "🌍" },
   { num: "98%", label: "Client Satisfaction", icon: "⭐" },
 ];

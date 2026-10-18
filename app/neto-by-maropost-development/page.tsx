@@ -462,8 +462,8 @@ const services = [
 ];
 
 const results = [
-  { value: "10+", label: "Years on Neto / Maropost", color: "text-cyan-400" },
-  { value: "100+", label: "Neto projects delivered", color: "text-emerald-400" },
+  { value: "12+", label: "Years on Neto / Maropost", color: "text-cyan-400" },
+  { value: "149+", label: "projects delivered", color: "text-emerald-400" },
   { value: "48hr", label: "Average response time", color: "text-violet-400" },
   { value: "AU", label: "Market specialist", color: "text-amber-400" },
 ];
@@ -648,8 +648,8 @@ export default function NetoServicePage() {
 
             <p className="mt-5 text-base md:text-lg text-white/50 leading-relaxed max-w-[500px]">
               Custom Maropost Commerce Cloud development that turns browsers into buyers —
-              with <span className="text-white font-semibold">10+ years</span> of deep Neto expertise
-              and <span className="text-white font-semibold">100+ Australian projects</span> delivered.
+              with <span className="text-white font-semibold">12+ years</span> of deep Neto expertise
+              and <span className="text-white font-semibold">149+ Australian projects</span> delivered.
             </p>
 
             {/* Trust chips */}
@@ -691,7 +691,7 @@ export default function NetoServicePage() {
                 ))}
               </div>
               <p className="text-[12px] text-white/35">
-                Trusted by <span className="text-white/60 font-semibold">100+ AU businesses</span>
+                Trusted by <span className="text-white/60 font-semibold">18+ AU businesses</span>
               </p>
             </div>
           </div>
@@ -772,7 +772,7 @@ export default function NetoServicePage() {
                   "Custom-coded designs that reflect your brand",
                   "Reliable API integrations, fully tested and documented",
                   "Complete B2B & wholesale development capability",
-                  "10+ years of dedicated Neto / Maropost experience",
+                  "12+ years of dedicated Neto / Maropost experience",
                 ].map((s) => (
                   <li key={s} className="flex items-start gap-3 text-[13px] text-white/70">
                     <span className="text-cyan-400 mt-0.5 flex-shrink-0">✓</span>

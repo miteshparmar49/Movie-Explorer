@@ -322,7 +322,7 @@ export default function WhyChooseMe() {
             <div className="text-yellow-400 text-lg">★★★★★</div>
             <div>
               <div className="text-white font-bold text-sm">5.0 Client Rating</div>
-              <div className="text-gray-500 text-xs">Across 50+ delivered projects</div>
+              <div className="text-gray-500 text-xs">Across 149+ delivered projects</div>
             </div>
           </div>
           <div className="w-px h-10 bg-white/10 hidden md:block" />

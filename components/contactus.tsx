@@ -203,7 +203,7 @@ const socials = [
 const trustBadges = [
   { icon: <FiClock  size={13} />, label: "Replies within 24h"      },
   { icon: <FiShield size={13} />, label: "Free consultation"        },
-  { icon: <FiStar   size={13} />, label: "2000+ projects delivered"   },
+  { icon: <FiStar   size={13} />, label: "149+ projects delivered"   },
 ];
 
 // ─── component ────────────────────────────────────────────────────────────────

@@ -196,7 +196,7 @@ export default function RootLayout({
 
         <Header />
         <main>{children}</main>
-        <OfferPopup />
+        {/* <OfferPopup /> */}
         <Footer />
       
       </body>
