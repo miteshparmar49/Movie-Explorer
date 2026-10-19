@@ -229,7 +229,7 @@ export default function Home() {
 </p>
 
             {/* Platform pills */}
-            <div className="flex flex-wrap gap-2 mb-10">
+            {/* <div className="flex flex-wrap gap-2 mb-10">
               {platforms.map((p) => (
                 <span
                   key={p.name}
@@ -243,7 +243,7 @@ export default function Home() {
                   {p.name}
                 </span>
               ))}
-            </div>
+            </div> */}
 
             {/* CTAs */}
             <div className="flex gap-3 flex-wrap">
@@ -281,18 +281,24 @@ export default function Home() {
                 </svg>
                 WhatsApp
               </a> */}
+
+              <p className="mt-4 text-sm text-gray-400 leading-relaxed">
+  Free 15-point speed & UX review <span className="text-gray-600">·</span>{" "}
+  Direct senior developer access <span className="text-gray-600">·</span>{" "}
+  Reply within 24 hours
+</p>
             </div>
 
             {/* Mini trust row */}
             <div className="flex items-center gap-6 mt-10 pt-8 border-t border-white/8">
               <div className="text-center">
                 <div className="text-2xl font-extrabold text-white">12+</div>
-                <div className="text-xs text-gray-500 mt-0.5">Years Exp.</div>
+                <div className="text-xs text-gray-500 mt-0.5">Years E-Commerce Experience.</div>
               </div>
               <div className="w-px h-8 bg-white/10" />
               <div className="text-center">
                 <div className="text-2xl font-extrabold text-white">149+</div>
-                <div className="text-xs text-gray-500 mt-0.5">Projects</div>
+                <div className="text-xs text-gray-500 mt-0.5">Stores Built & Optimised</div>
               </div>
               <div className="w-px h-8 bg-white/10" />
               <div className="text-center">
