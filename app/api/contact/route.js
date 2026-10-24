@@ -7,19 +7,20 @@ export async function POST(req) {
   try {
     const { name, email, company, phone, message } = await req.json();
 
-    await resend.emails.send({
-      from: "Contact Form <onboarding@resend.dev>",
-      to: ["mvpinfotechmitesh@gmail.com"],
-      subject: "New Contact Form Message",
-      html: `
-        <h3>New Contact Form Submission</h3>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Company:</strong> ${company || "-"}</p>
-        <p><strong>Phone:</strong> ${phone || "-"}</p>
-        <p><strong>Message:</strong><br/>${message}</p>
-      `,
-    });
+  await resend.emails.send({
+  from: "MVP InfoTech <support@mvpinfotech.in>",
+  to: ["support@mvpinfotech.in"],
+  replyTo: email,
+  subject: "New Contact Form Message",
+  html: `
+    <h3>New Contact Form Submission</h3>
+    <p><strong>Name:</strong> ${name}</p>
+    <p><strong>Email:</strong> ${email}</p>
+    <p><strong>Company:</strong> ${company || "-"}</p>
+    <p><strong>Phone:</strong> ${phone || "-"}</p>
+    <p><strong>Message:</strong><br/>${message}</p>
+  `,
+});
 
     return NextResponse.json({ success: true });
   } catch (error) {
