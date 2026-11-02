@@ -344,7 +344,7 @@ export const processSteps: ProcessStep[] = [
 ];
 
 export const counterStats: CounterStat[] = [
-  { value: 250, suffix: "+", label: "Projects Delivered" },
+  { value: 149, suffix: "+", label: "Projects Delivered" },
   { value: 120, suffix: "+", label: "Happy Clients" },
   { value: 98, suffix: "%", label: "Satisfaction Rate" },
   { value: 12, suffix: "+", label: "Countries Served" },
