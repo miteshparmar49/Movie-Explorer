@@ -123,7 +123,7 @@ import Link from "next/link";
 const reasons = [
   {
     title: "12+ Years of Experience",
-    desc: "Over a decade delivering scalable ecommerce and web solutions for global clients across Australia, USA, UK, Canada and UAE. We have worked across retail, automotive, healthcare, fashion, industrial and B2B industries — building stores that don't just look great but consistently rank, convert and grow. With 2,000+ projects shipped and a 5.0 client rating, we bring the kind of experience that only comes from solving real problems for real businesses at scale.",
+    desc: "Over a decade delivering scalable ecommerce and web solutions for global clients across Australia, USA, UK, Canada and UAE. We have worked across retail, automotive, healthcare, fashion, industrial and B2B industries — building stores that don't just look great but consistently rank, convert and grow. With 149+ projects shipped and a 5.0 client rating, we bring the kind of experience that only comes from solving real problems for real businesses at scale.",
     icon: HiOutlineBriefcase,
     color: "#38bdf8",
     stat: "12+",
